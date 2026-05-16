@@ -3,16 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лучшие VPS Казахстана 2026 — ТОП-10 серверов ВДС/ВПС Server в KZ</title>
-    <meta name="description" content="Рейтинг 10 лучших VPS в Казахстане 2026. Сравнение цен в тенге и рублях, дата-центры в Алматы и Астане. Аренда VPS/VDS от 139₽ — обзоры провайдеров, оплата Kaspi, криптовалютой.">
+    <title>Лучшие VPS Казахстана 2026 - ТОП-10 серверов ВДС/ВПС в KZ (май)</title>
+    <meta name="description" content="Рейтинг 10 лучших VPS в Казахстане на май 2026. Сравнение цен в тенге и рублях, дата-центры в Алматы и Астане. Аренда VPS/VDS от 139 ₽ - обзоры провайдеров, оплата Kaspi, криптовалютой.">
     <link rel="canonical" href="https://vps-kazakhstan.vercel.app/">
-    <meta property="og:title" content="VPS Казахстан — Рейтинг лучших серверов 2026">
-    <meta property="og:description" content="Топ-10 VPS и VDS в Казахстане. Дата-центры в Алматы, оплата в тенге и рублях. Аренда от 139₽/мес.">
-    <meta property="og:type" content="website">
+    <meta property="og:title" content="VPS Казахстан - Рейтинг лучших серверов 2026">
+    <meta property="og:description" content="Топ-10 VPS и VDS в Казахстане. Дата-центры в Алматы, оплата в тенге и рублях. Аренда от 139 ₽/мес.">
+    <meta property="og:type" content="article">
     <meta property="og:url" content="https://vps-kazakhstan.vercel.app/">
+    <meta property="og:image" content="https://vps-kazakhstan.vercel.app/og-image.png">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="article:published_time" content="2026-03-06T10:00:00+05:00">
+    <meta property="article:modified_time" content="2026-05-16T10:00:00+05:00">
+    <meta name="keywords" content="VPS Казахстан, VDS Алматы, виртуальный сервер KZ, хостинг Астана, аренда VPS, KVM, Kaspi оплата, VPS для VPN">
     <link rel="icon" type="image/webp" href="/332323.png">
     <meta name="yandex-verification" content="4d036c928a4d21aa" />
-    <meta property="og:locale" content="ru_RU">
+
+    <link rel="preconnect" href="https://adminvps.ru" crossorigin>
+    <link rel="preconnect" href="https://timeweb.cloud" crossorigin>
+    <link rel="preconnect" href="https://ruvds.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.ps.kz">
+    <link rel="dns-prefetch" href="https://hoster.kz">
+    <link rel="dns-prefetch" href="https://serverspace.kz">
+    <link rel="dns-prefetch" href="https://vps24.kz">
+
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
         :root{
@@ -33,21 +46,54 @@
         .nav-links a{color:var(--text2)}.nav-links a:hover{color:#fff}
         .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none}
         .burger span{display:block;width:24px;height:2px;background:#fff;transition:.3s}
-        .hero{padding:8rem 2rem 4rem;text-align:center;background:radial-gradient(ellipse at 50% 0%,rgba(108,92,231,.15),transparent 70%)}
-        .hero-badge{display:inline-block;padding:.4rem 1rem;border:1px solid var(--accent);border-radius:50px;font-size:.8rem;color:var(--accent2);margin-bottom:1.5rem}
-        .hero h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;line-height:1.2;margin-bottom:1rem}
+
+        .hero{padding:6rem 2rem 2.5rem;text-align:center;background:radial-gradient(ellipse at 50% 0%,rgba(108,92,231,.15),transparent 70%)}
+        .hero-badge{display:inline-block;padding:.4rem 1rem;border:1px solid var(--accent);border-radius:50px;font-size:.8rem;color:var(--accent2);margin-bottom:1.2rem;animation:pulseGlow 3s ease-in-out infinite}
+        .hero h1{font-size:clamp(1.7rem,4.5vw,2.8rem);font-weight:800;line-height:1.2;margin-bottom:1rem}
         .hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent2),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-        .hero p{font-size:1.15rem;color:var(--text2);max-width:750px;margin:0 auto 2rem}
-        .hero-cta{display:inline-block;padding:.9rem 2.5rem;background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff;border-radius:12px;font-weight:600;font-size:1rem;transition:transform .2s,box-shadow .2s}
+        .hero p{font-size:1.05rem;color:var(--text2);max-width:720px;margin:0 auto 1.5rem}
+        .hero-cta{display:inline-block;padding:.85rem 2rem;background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff;border-radius:12px;font-weight:600;font-size:.95rem;transition:transform .2s,box-shadow .2s}
         .hero-cta:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(108,92,231,.4);color:#fff}
-        .stats{display:grid;grid-template-columns:repeat(4,1fr);max-width:900px;margin:0 auto;padding:0 2rem 3rem;gap:1rem}
-        .stat{text-align:center;padding:1.5rem 1rem;background:var(--bg2);border-radius:16px;border:1px solid var(--border)}
-        .stat-num{font-size:1.8rem;font-weight:800;color:#fff}
-        .stat-label{font-size:.8rem;color:var(--text2);margin-top:.3rem}
+        .trust-row{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;margin:1.2rem 0 0}
+        .trust-badge{display:inline-flex;align-items:center;gap:.35rem;padding:.35rem .85rem;background:var(--bg3);border:1px solid var(--border);border-radius:8px;font-size:.75rem;color:var(--text2)}
+
+        /* Quick Picks */
+        .qp-section{padding:2rem 2rem 1rem}
+        .qp-wrap{max-width:1100px;margin:0 auto}
+        .qp-title{text-align:center;font-size:1.1rem;font-weight:700;color:var(--text2);margin-bottom:1.2rem;letter-spacing:.5px;text-transform:uppercase}
+        .qp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+        .qp-card{background:var(--card);border:2px solid var(--border);border-radius:14px;padding:1.2rem;display:flex;flex-direction:column;gap:.6rem;transition:transform .2s,box-shadow .3s;position:relative}
+        .qp-card:hover{transform:translateY(-4px);box-shadow:0 10px 30px rgba(0,0,0,.3)}
+        .qp-card.qp-gold{border-color:var(--gold)}
+        .qp-card.qp-silver{border-color:var(--silver)}
+        .qp-card.qp-bronze{border-color:var(--bronze)}
+        .qp-rank{position:absolute;top:-12px;left:14px;padding:.2rem .7rem;border-radius:20px;font-size:.72rem;font-weight:800;color:#000}
+        .qp-gold .qp-rank{background:linear-gradient(135deg,#ffd700,#ffaa00)}
+        .qp-silver .qp-rank{background:linear-gradient(135deg,#c0c0c0,#888)}
+        .qp-bronze .qp-rank{background:linear-gradient(135deg,#cd7f32,#a0522d);color:#fff}
+        .qp-name{font-size:1.15rem;font-weight:800;color:#fff;margin-top:.2rem}
+        .qp-tag{font-size:.78rem;color:var(--accent2);font-weight:600}
+        .qp-feat{font-size:.82rem;color:var(--text2);line-height:1.5}
+        .qp-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:.5rem;border-top:1px solid var(--border)}
+        .qp-price{font-size:1.2rem;font-weight:800;color:var(--green)}
+        .qp-stars{font-size:.78rem;color:var(--gold)}
+        .qp-btn{display:block;text-align:center;padding:.7rem 1rem;background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff!important;border-radius:10px;font-weight:700;font-size:.88rem;transition:transform .2s,box-shadow .2s;word-break:break-word}
+        .qp-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(108,92,231,.4);color:#fff!important}
+        .qp-btn.qp-btn-green{background:linear-gradient(135deg,var(--green),#00b894);color:#000!important}
+        .qp-promo{display:inline-block;padding:.2rem .55rem;background:rgba(0,230,118,.1);border:1px dashed var(--green);border-radius:6px;font-size:.72rem;font-weight:700;color:var(--green);align-self:flex-start}
+        .qp-jump{text-align:center;margin-top:1.2rem}
+        .qp-jump a{color:var(--accent2);font-size:.9rem;font-weight:600}
+
+        .stats{display:grid;grid-template-columns:repeat(4,1fr);max-width:900px;margin:0 auto;padding:0 2rem 2rem;gap:.8rem}
+        .stat{text-align:center;padding:1rem .8rem;background:var(--bg2);border-radius:14px;border:1px solid var(--border)}
+        .stat-num{font-size:1.5rem;font-weight:800;color:#fff}
+        .stat-label{font-size:.75rem;color:var(--text2);margin-top:.3rem}
+
         .section{padding:4rem 2rem}
         .container{max-width:1100px;margin:0 auto}
         .section-title{font-size:clamp(1.5rem,3vw,2rem);font-weight:700;text-align:center;margin-bottom:.5rem}
         .section-sub{text-align:center;color:var(--text2);margin-bottom:3rem;font-size:1rem}
+
         .rating-list{display:flex;flex-direction:column;gap:1.5rem}
         .rating-card{display:grid;grid-template-columns:60px 1fr auto;align-items:center;gap:1.5rem;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.5rem 2rem;transition:border-color .3s,transform .2s}
         .rating-card:hover{border-color:var(--accent);transform:translateY(-2px)}
@@ -72,12 +118,14 @@
         .card-btn{display:inline-block;padding:.5rem 1.2rem;background:var(--accent);color:#fff;border-radius:8px;font-size:.85rem;font-weight:600;transition:background .2s}
         .card-btn:hover{background:#7c6cf0;color:#fff}
         .promo-code{display:inline-block;margin-top:.5rem;padding:.35rem .8rem;background:rgba(0,230,118,.12);border:1px dashed var(--green);border-radius:8px;font-size:.8rem;font-weight:700;color:var(--green);letter-spacing:.5px;max-width:100%;box-sizing:border-box;word-break:break-all}
+
         .table-wrap{overflow-x:auto;margin-top:2rem;border-radius:16px;border:1px solid var(--border)}
         table{width:100%;border-collapse:collapse;font-size:.85rem}
         th{background:var(--bg3);padding:1rem;text-align:left;font-weight:600;color:var(--accent2);white-space:nowrap}
         td{padding:.8rem 1rem;border-top:1px solid var(--border);white-space:nowrap}
         tr:hover td{background:rgba(108,92,231,.05)}
         .table-promo{display:inline-block;padding:.15rem .5rem;background:rgba(0,230,118,.12);border:1px dashed var(--green);border-radius:5px;font-size:.75rem;font-weight:700;color:var(--green);margin-left:.4rem}
+
         .article{max-width:800px;margin:0 auto}
         .article h2{font-size:1.5rem;font-weight:700;margin:2.5rem 0 1rem;color:#fff}
         .article h3{font-size:1.2rem;font-weight:600;margin:2rem 0 .8rem;color:var(--accent2)}
@@ -86,6 +134,17 @@
         .article-highlight{background:var(--bg2);border-left:4px solid var(--accent);padding:1.2rem 1.5rem;border-radius:0 12px 12px 0;margin:1.5rem 0}
         .article-highlight2{background:var(--bg2);border-left:4px solid var(--green);padding:1.2rem 1.5rem;border-radius:0 12px 12px 0;margin:1.5rem 0}
         .article-highlight3{background:var(--bg2);border-left:4px solid var(--warn);padding:1.2rem 1.5rem;border-radius:0 12px 12px 0;margin:1.5rem 0}
+
+        /* Expandable details */
+        details.expandable{background:var(--bg2);border:1px solid var(--border);border-radius:12px;margin-bottom:.8rem;overflow:hidden;transition:border-color .3s}
+        details.expandable[open]{border-color:var(--accent)}
+        details.expandable summary{padding:1rem 1.5rem;cursor:pointer;font-weight:600;font-size:1rem;color:#fff;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+        details.expandable summary::-webkit-details-marker{display:none}
+        details.expandable summary::after{content:'▼';font-size:.8rem;color:var(--accent2);transition:transform .3s;flex-shrink:0}
+        details.expandable[open] summary::after{transform:rotate(180deg)}
+        details.expandable .det-body{padding:0 1.5rem 1.2rem;color:var(--text2);font-size:.95rem;line-height:1.7}
+        details.expandable .det-body p{margin-bottom:.8rem}
+
         .faq-list{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:.8rem}
         .faq-item{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden}
         .faq-q{padding:1.2rem 1.5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:1rem;transition:background .2s}
@@ -93,21 +152,25 @@
         .faq-q::after{content:'+';font-size:1.3rem;color:var(--accent2);transition:transform .3s}
         .faq-item.open .faq-q::after{transform:rotate(45deg)}
         .faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s;padding:0 1.5rem;color:var(--text2);font-size:.95rem;line-height:1.7}
-        .faq-item.open .faq-a{max-height:600px;padding:0 1.5rem 1.2rem}
-        .ticker-wrap{overflow:hidden;padding:1.5rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+        .faq-item.open .faq-a{max-height:800px;padding:0 1.5rem 1.2rem}
+
+        .ticker-wrap{overflow:hidden;padding:1rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
         .ticker{display:flex;gap:2rem;animation:tickerMove 40s linear infinite;width:max-content}
         .ticker span{font-size:.85rem;font-weight:600;color:var(--text2);white-space:nowrap}
         .ticker span::before{content:'✦ ';color:var(--accent)}
         @keyframes tickerMove{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
         .footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--border);color:var(--text2);font-size:.85rem}
         .cta-block{text-align:center;padding:4rem 2rem;background:radial-gradient(ellipse at 50% 100%,rgba(108,92,231,.12),transparent 70%)}
         .cta-block h2{font-size:1.8rem;font-weight:700;margin-bottom:1rem}
         .cta-block p{color:var(--text2);margin-bottom:2rem;font-size:1.05rem}
+
         .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0}
         .pros,.cons{background:var(--bg2);padding:1.2rem 1.5rem;border-radius:12px;border:1px solid var(--border)}
         .pros h4{color:var(--green);margin-bottom:.8rem;font-size:1rem}
         .cons h4{color:#ff6b6b;margin-bottom:.8rem;font-size:1rem}
         .pros p,.cons p{font-size:.9rem;color:var(--text2);margin-bottom:.4rem}
+
         .detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:3rem}
         .detail-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;display:flex;flex-direction:column;gap:1rem;transition:transform .2s,border-color .3s}
         .detail-card:hover{transform:translateY(-3px);border-color:var(--accent)}
@@ -130,24 +193,25 @@
         .detail-pros p,.detail-cons p{font-size:.78rem;color:var(--text2);margin-bottom:.2rem}
         .detail-btn{display:block;text-align:center;padding:.7rem 1rem;background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff!important;border-radius:10px;font-weight:600;font-size:.88rem;transition:transform .2s,box-shadow .2s;margin-top:auto}
         .detail-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(108,92,231,.4);color:#fff!important}
+
         .social-proof-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:1.5rem;margin-bottom:2rem;padding:.8rem 1.5rem;background:var(--bg3);border-radius:12px;border:1px solid var(--border)}
         .sp-item{display:flex;align-items:center;gap:.4rem;font-size:.82rem;color:var(--text2)}
         .sp-item strong{color:#fff}
         .sp-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:blink 1.5s ease-in-out infinite}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
-        .trust-row{display:flex;flex-wrap:wrap;justify-content:center;gap:.8rem;margin:1.5rem 0 0}
-        .trust-badge{display:inline-flex;align-items:center;gap:.4rem;padding:.4rem 1rem;background:var(--bg3);border:1px solid var(--border);border-radius:8px;font-size:.78rem;color:var(--text2)}
-        .trust-badge span:first-child{font-size:1rem}
+
         .card-btn-primary{display:block;padding:.6rem 1.3rem;background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff!important;border-radius:8px;font-size:.85rem;font-weight:700;transition:transform .2s,box-shadow .2s;width:100%;text-align:center;margin-top:.4rem;box-sizing:border-box;white-space:normal;word-break:break-word}
         .card-btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(108,92,231,.45);color:#fff!important}
         .card-btn-green{background:linear-gradient(135deg,var(--green),#00b894)!important;color:#000!important}
         .card-btn-green:hover{box-shadow:0 8px 24px rgba(0,230,118,.4)!important;color:#000!important}
+
         .live-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.2rem .65rem;background:rgba(0,230,118,.1);border:1px solid rgba(0,230,118,.25);border-radius:20px;font-size:.75rem;color:var(--green);margin-top:.3rem}
         .badge-popular{display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .7rem;background:linear-gradient(135deg,#ff6b35,#f7c59f);color:#000;border-radius:20px;font-size:.72rem;font-weight:800;margin-bottom:.5rem;animation:pulseGlow 2s ease-in-out infinite}
         .badge-choice{display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .7rem;background:linear-gradient(135deg,var(--gold),#ffaa00);color:#000;border-radius:20px;font-size:.72rem;font-weight:800;margin-bottom:.5rem}
         .badge-cheap{display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .7rem;background:linear-gradient(135deg,var(--green),#00b894);color:#000;border-radius:20px;font-size:.72rem;font-weight:800;margin-bottom:.5rem}
         .badge-new{display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .7rem;background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff;border-radius:20px;font-size:.72rem;font-weight:800;margin-bottom:.5rem}
         @keyframes pulseGlow{0%,100%{box-shadow:0 0 0 0 rgba(255,107,53,.4)}50%{box-shadow:0 0 0 6px rgba(255,107,53,0)}}
+
         .recommender{background:var(--card);border:1px solid var(--accent);border-radius:16px;padding:1.5rem 2rem;max-width:700px;margin:2rem auto 0;text-align:center}
         .recommender h3{font-size:1.1rem;font-weight:700;margin-bottom:1rem;color:#fff}
         .rec-btns{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;margin-bottom:1rem}
@@ -156,12 +220,25 @@
         .rec-result{display:none;padding:1rem 1.2rem;background:var(--bg2);border-radius:10px;border-left:3px solid var(--green);text-align:left;font-size:.9rem;color:var(--text)}
         .rec-result.show{display:block}
         .rec-result strong{color:var(--green)}
+
         .mid-cta-banner{background:linear-gradient(135deg,rgba(108,92,231,.15),rgba(0,230,118,.08));border:1px solid var(--accent);border-radius:16px;padding:1.5rem 2rem;margin:2rem 0;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
         .mid-cta-banner .mcb-text{flex:1;min-width:200px}
         .mid-cta-banner .mcb-text h3{font-size:1.1rem;font-weight:700;margin-bottom:.3rem;color:#fff}
         .mid-cta-banner .mcb-text p{font-size:.88rem;color:var(--text2);margin:0}
         .mid-cta-banner .mcb-btn{display:inline-block;padding:.65rem 1.5rem;background:linear-gradient(135deg,var(--green),#00b894);color:#000!important;border-radius:10px;font-weight:700;font-size:.9rem;white-space:nowrap;transition:transform .2s,box-shadow .2s}
         .mid-cta-banner .mcb-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,230,118,.35);color:#000!important}
+
+        /* News feed */
+        .news-feed{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:.8rem}
+        .news-item{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem 1.3rem}
+        .news-item time{display:inline-block;font-size:.75rem;color:var(--accent2);font-weight:700;margin-bottom:.3rem;padding:.15rem .55rem;background:rgba(108,92,231,.12);border-radius:6px}
+        .news-item h4{font-size:1rem;font-weight:700;color:#fff;margin-bottom:.3rem}
+        .news-item p{font-size:.88rem;color:var(--text2);line-height:1.6}
+        .news-hidden{display:none}
+        .news-hidden.show{display:block}
+        .news-toggle-btn{display:block;margin:1.2rem auto 0;padding:.7rem 1.6rem;background:var(--bg3);border:1px solid var(--accent);color:var(--accent2);border-radius:10px;font-weight:600;font-size:.9rem;cursor:pointer;transition:all .2s}
+        .news-toggle-btn:hover{background:rgba(108,92,231,.15);color:#fff}
+
         .sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:200;background:linear-gradient(90deg,#1a1a2e,#16213e);border-top:1px solid var(--accent);padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;transform:translateY(100%);transition:transform .4s cubic-bezier(.175,.885,.32,1.275);box-shadow:0 -4px 30px rgba(108,92,231,.3);box-sizing:border-box;width:100%}
         .sticky-bar.visible{transform:translateY(0)}
         .sb-short{display:none}
@@ -172,13 +249,15 @@
         .sticky-bar-close{background:none;border:none;color:var(--text2);cursor:pointer;font-size:1.2rem;padding:.2rem .5rem;line-height:1}
         .sticky-bar-close:hover{color:#fff}
         .sticky-bar-promo{display:inline-block;padding:.15rem .5rem;background:rgba(0,230,118,.12);border:1px dashed var(--green);border-radius:5px;font-size:.75rem;font-weight:700;color:var(--green);margin-left:.4rem}
+
         @media(max-width:1024px){.detail-grid{grid-template-columns:repeat(2,1fr)}}
         @media(max-width:768px){
             .stats{grid-template-columns:repeat(2,1fr)}
+            .qp-grid{grid-template-columns:1fr;gap:.8rem}
             .rating-card{grid-template-columns:1fr;gap:1rem;padding:1.2rem}
             .rank{width:40px;height:40px;font-size:1.2rem}
             .card-right{text-align:left;min-width:0;width:100%}
-            .card-btn,.card-btn-primary{display:block;width:100%;text-align:center;box-sizing:border-box;white-space:normal;word-break:break-word;padding:.65rem 1rem;font-size:.82rem}
+            .card-btn,.card-btn-primary,.qp-btn{display:block;width:100%;text-align:center;box-sizing:border-box;white-space:normal;word-break:break-word;padding:.65rem 1rem;font-size:.82rem}
             .nav-links{display:none;position:absolute;top:60px;left:0;right:0;background:var(--bg);flex-direction:column;padding:1rem 2rem;border-bottom:1px solid var(--border)}
             .nav-links.open{display:flex}
             .burger{display:flex}
@@ -189,13 +268,12 @@
             .detail-pros-cons{grid-template-columns:1fr}
             .sticky-bar{flex-wrap:nowrap;gap:.5rem;padding:.6rem 1rem}
             .sticky-bar-text{font-size:.8rem}
-            .sb-short{display:none}
             .mid-cta-banner{flex-direction:column;gap:1rem}
             .recommender{padding:1.2rem 1rem}
             .rec-btns{gap:.4rem;flex-direction:column}
             .rec-btn{width:100%;text-align:center;font-size:.82rem;padding:.6rem .8rem}
             .trust-row{gap:.5rem}
-            .trust-badge{font-size:.72rem;padding:.35rem .7rem}
+            .trust-badge{font-size:.72rem;padding:.3rem .7rem}
             .social-proof-bar{gap:.8rem;padding:.7rem 1rem}
             .sp-item{font-size:.78rem}
         }
@@ -206,11 +284,11 @@
             .sticky-bar-close{font-size:1rem;padding:.1rem .35rem}
             .sb-full{display:none}
             .sb-short{display:inline}
-            .card-btn,.card-btn-primary{font-size:.78rem;padding:.55rem .8rem}
+            .card-btn,.card-btn-primary,.qp-btn{font-size:.78rem;padding:.55rem .8rem}
             .promo-code{font-size:.72rem;padding:.25rem .5rem}
             .live-chip{font-size:.68rem;padding:.15rem .5rem}
             .badge-popular,.badge-choice,.badge-cheap,.badge-new{font-size:.67rem;padding:.2rem .55rem}
-            .card-price{font-size:1.2rem}
+            .card-price,.qp-price{font-size:1.2rem}
             .recommender h3{font-size:.95rem}
             .mid-cta-banner .mcb-text h3{font-size:.95rem}
             .mid-cta-banner .mcb-btn{font-size:.82rem;padding:.55rem 1rem}
@@ -222,13 +300,14 @@
             .sticky-bar-text{font-size:.72rem}
             .sticky-bar-btn{padding:.4rem .75rem;font-size:.74rem}
             .card-info h3{font-size:1rem}
-            .card-price{font-size:1.1rem}
+            .card-price,.qp-price{font-size:1.1rem}
             .section{padding:3rem 1rem}
-            .hero{padding:6rem 1rem 2.5rem}
-            .hero p{font-size:1rem}
+            .hero{padding:5rem 1rem 1.5rem}
+            .qp-section{padding:1.5rem 1rem .5rem}
+            .hero p{font-size:.95rem}
             .trust-badge{font-size:.68rem;padding:.3rem .55rem}
-            .stat{padding:1rem .6rem}
-            .stat-num{font-size:1.4rem}
+            .stat{padding:.8rem .5rem}
+            .stat-num{font-size:1.3rem}
         }
         @media(max-width:320px){
             .sticky-bar{padding:.4rem .5rem}
@@ -236,27 +315,48 @@
             .sticky-bar-text{font-size:.68rem}
             .hero h1{font-size:1.4rem}
             .section-title{font-size:1.25rem}
-            .card-btn,.card-btn-primary{font-size:.74rem;padding:.5rem .6rem}
+            .card-btn,.card-btn-primary,.qp-btn{font-size:.74rem;padding:.5rem .6rem}
             .stats{grid-template-columns:1fr 1fr}
-            .stat-num{font-size:1.2rem}
+            .stat-num{font-size:1.1rem}
             .nav-inner{padding:0 .75rem}
             .badge-popular,.badge-choice,.badge-cheap,.badge-new{font-size:.62rem;padding:.15rem .45rem}
         }
     </style>
+
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Article","headline":"VPS Казахстан — Рейтинг лучших серверов в 2026 году","description":"Топ-10 провайдеров для аренды VPS в Казахстане. Дата-центры в Алматы и Астане, оплата в тенге, рублях и криптовалютой. Сравнение, цены, обзоры.","datePublished":"2026-03-06","dateModified":"2026-04-22","author":{"@type":"Organization","name":"VPS Казахстан"},"publisher":{"@type":"Organization","name":"VPS Казахстан"}}
+    {"@context":"https://schema.org","@type":"Article","headline":"VPS Казахстан - Рейтинг лучших серверов в 2026 году","description":"Топ-10 провайдеров для аренды VPS в Казахстане. Дата-центры в Алматы и Астане, оплата в тенге, рублях и криптовалютой.","image":"https://vps-kazakhstan.vercel.app/og-image.png","datePublished":"2026-03-06","dateModified":"2026-05-16","author":{"@type":"Organization","name":"VPS Казахстан","url":"https://vps-kazakhstan.vercel.app/"},"publisher":{"@type":"Organization","name":"VPS Казахстан","logo":{"@type":"ImageObject","url":"https://vps-kazakhstan.vercel.app/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://vps-kazakhstan.vercel.app/"}}
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Главная","item":"https://vps-kazakhstan.vercel.app/"},
+        {"@type":"ListItem","position":2,"name":"Рейтинг VPS Казахстан 2026","item":"https://vps-kazakhstan.vercel.app/#rating"}
+    ]}
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"ItemList","name":"Топ-10 VPS провайдеров в Казахстане 2026","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"AdminVPS","url":"https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893"},
+        {"@type":"ListItem","position":2,"name":"Timeweb Cloud","url":"https://timeweb.cloud/?i=138553"},
+        {"@type":"ListItem","position":3,"name":"RUVDS","url":"https://ruvds.com/ru/data/almaty/"},
+        {"@type":"ListItem","position":4,"name":"PS.kz","url":"https://www.ps.kz/hosting/vps/"},
+        {"@type":"ListItem","position":5,"name":"Hoster.kz","url":"https://hoster.kz/cloud/vps/"},
+        {"@type":"ListItem","position":6,"name":"Serverspace.kz","url":"https://serverspace.kz/services/vps-server/"},
+        {"@type":"ListItem","position":7,"name":"VPS24.kz","url":"https://vps24.kz/"},
+        {"@type":"ListItem","position":8,"name":"NLS Kazakhstan","url":"https://nls.kz/b2b/server/vds-hosting"},
+        {"@type":"ListItem","position":9,"name":"GoodHost.kz","url":"https://goodhost.kz/"},
+        {"@type":"ListItem","position":10,"name":"GoHost.kz","url":"https://gohost.kz/"}
+    ]}
     </script>
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-        {"@type":"Question","name":"Какой самый дешевый VPS в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Самый доступный VPS с казахстанской локацией предлагает RUVDS — от 139 ₽/мес за сервер в Алматы. Среди локальных провайдеров — Hoster.kz от 3100 ₸/мес."}},
-        {"@type":"Question","name":"Можно ли оплатить VPS в Казахстане в тенге?","acceptedAnswer":{"@type":"Answer","text":"Да. Локальные провайдеры PS.kz, Hoster.kz, Serverspace.kz принимают оплату в тенге через Kaspi и банковские карты. Российские хостинги (Timeweb Cloud, RUVDS) принимают рубли."}},
+        {"@type":"Question","name":"Какой самый дешевый VPS в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Самый доступный VPS с казахстанской локацией предлагает RUVDS - от 139 ₽/мес за сервер в Алматы. Среди локальных провайдеров с оплатой в тенге - GoHost.kz от 900 ₸/мес и Hoster.kz от 3 100 ₸/мес."}},
+        {"@type":"Question","name":"Можно ли оплатить VPS в Казахстане в тенге?","acceptedAnswer":{"@type":"Answer","text":"Да. Локальные провайдеры PS.kz, Hoster.kz, Serverspace.kz, VPS24.kz, GoodHost.kz и GoHost.kz принимают оплату в тенге через Kaspi и банковские карты. Российские хостинги (Timeweb Cloud, RUVDS, AdminVPS) принимают рубли."}},
         {"@type":"Question","name":"Где находятся дата-центры VPS в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Основные дата-центры расположены в Алматы (Timeweb Cloud, RUVDS, PS.kz, Hoster.kz, Serverspace) и Астане (Hoster.kz, NLS Kazakhstan, AKASHI Tier IV). Пинг внутри страны 5-20 мс."}},
-        {"@type":"Question","name":"Какой VPS выбрать для VPN в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Для VPN рекомендуем AdminVPS (KVM, NVMe, промокод VPS30 -30%) или Timeweb Cloud — оба поддерживают KVM, TUN/TAP и безлимитный трафик. Минимального тарифа достаточно для WireGuard или VLESS Reality."}},
-        {"@type":"Question","name":"Чем отличается VPS от VDS?","acceptedAnswer":{"@type":"Answer","text":"На практике ничем — это разные названия одной услуги. VPS (Virtual Private Server) и VDS (Virtual Dedicated Server) означают виртуальную машину с выделенными ресурсами. Важнее тип виртуализации: KVM дает полную изоляцию и root-доступ."}},
-        {"@type":"Question","name":"Есть ли бесплатный VPS в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Полностью бесплатных VPS в Казахстане нет. RUVDS предлагает 3-дневный тестовый период, Timeweb Cloud — грантовую программу до 1 000 000 ₽ для стартапов. Oracle Cloud дает бесплатную машину, но без казахстанской локации."}},
-        {"@type":"Question","name":"Можно ли использовать казахстанский VPS для обхода российских блокировок?","acceptedAnswer":{"@type":"Answer","text":"Да. Казахстанские серверы находятся вне юрисдикции РКН. VPN-протоколы работают без ограничений. AdminVPS, Timeweb Cloud и RUVDS имеют дата-центры в Алматы с оплатой в рублях. После апрельских блокировок 2026 спрос на казахстанские VPS значительно вырос."}},
-     {"@type":"Question","name":"Блокируют ли VPN в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Использование VPN в Казахстане законно. DPI-фильтрация мягче, чем в России. WireGuard и OpenVPN работают без обфускации. В Казахстане нет аналогов российских ТСПУ."}}
-        ]}
+        {"@type":"Question","name":"Какой VPS выбрать для VPN в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Для VPN подойдёт AdminVPS (KVM, NVMe, промокод VPS30 даёт -30%) или Timeweb Cloud с дата-центром в Алматы. Оба поддерживают KVM, TUN/TAP и безлимитный трафик. Минимального тарифа достаточно для WireGuard или VLESS Reality."}},
+        {"@type":"Question","name":"Чем отличается VPS от VDS?","acceptedAnswer":{"@type":"Answer","text":"На практике ничем - это разные названия одной услуги. VPS и VDS означают виртуальную машину с выделенными ресурсами. Важнее тип виртуализации: KVM даёт полную изоляцию и root-доступ."}},
+        {"@type":"Question","name":"Есть ли бесплатный VPS в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Полностью бесплатных VPS в Казахстане нет. RUVDS предлагает 3-дневный тестовый период, Timeweb Cloud - грантовую программу для стартапов. VPS24.kz даёт посуточную оплату от 414 ₸/день - можно протестировать за минимальную сумму."}},
+        {"@type":"Question","name":"Можно ли использовать казахстанский VPS для обхода российских блокировок?","acceptedAnswer":{"@type":"Answer","text":"Да. Казахстанские серверы находятся вне юрисдикции РКН и ТСПУ. VPN-протоколы работают без ограничений. AdminVPS, Timeweb Cloud и RUVDS имеют дата-центры в Алматы с оплатой в рублях. Спрос на казахстанские VPS со стороны российской аудитории растёт - к маю 2026 РКН заблокировал более 469 VPN-сервисов."}},
+        {"@type":"Question","name":"Блокируют ли VPN в Казахстане?","acceptedAnswer":{"@type":"Answer","text":"Использование VPN в Казахстане законно. DPI-фильтрация мягче, чем в России. WireGuard и OpenVPN работают без обфускации. Аналогов российских ТСПУ в Казахстане нет."}}
+    ]}
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
     <script defer src="/_vercel/speed-insights/script.js"></script>
@@ -265,41 +365,95 @@
 
 <nav class="nav">
     <div class="nav-inner">
-        <a href="/" class="nav-logo"><img src="/logo.png" alt="VPS Казахстана" height="36"></a>
-        <button class="burger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Меню"><span></span><span></span><span></span></button>
+        <a href="/" class="nav-logo"><img src="/logo.png" alt="VPS Казахстана - логотип" width="120" height="36" loading="eager"></a>
+        <button class="burger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Открыть меню"><span></span><span></span><span></span></button>
         <ul class="nav-links">
             <li><a href="#rating">Рейтинг</a></li>
             <li><a href="#compare">Сравнение</a></li>
             <li><a href="#detail-compare">Подробно</a></li>
             <li><a href="#guide">Как выбрать</a></li>
-            <li><a href="#locations">Локации</a></li>
-            <li><a href="#payment">Оплата</a></li>
+            <li><a href="#vpn">VPN</a></li>
+            <li><a href="#news">Новости</a></li>
             <li><a href="#faq">FAQ</a></li>
         </ul>
     </div>
 </nav>
 
 <header class="hero">
-    <div class="hero-badge">✅ Обновлено: 22 апреля 2026 — цены, локации и новости перепроверены</div>
+    <div class="hero-badge">✅ Обновлено сегодня, <time datetime="2026-05-16">16 мая 2026</time> - цены и новости перепроверены</div>
     <h1>Лучшие <em>VPS в Казахстане</em><br>Рейтинг серверов 2026</h1>
-    <p>Независимый рейтинг VPS и VDS хостингов с дата-центрами в Алматы и Астане. Сравнили 10 провайдеров: цены в тенге и рублях, скорость, поддержка, способы оплаты — всё проверено на практике.</p>
-    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem">
-        <a href="#rating" class="hero-cta">🏆 Перейти к рейтингу</a>
-        <a href="#detail-compare" class="hero-cta" style="background:transparent;border:2px solid var(--accent);color:var(--accent2)">📊 Сравнить тарифы</a>
+    <p>Тестировали 10 хостингов с серверами в Алматы и Астане. Цены в тенге и рублях, реальный пинг, поддержка, способы оплаты - всё проверено руками.</p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+        <a href="#qp" class="hero-cta">🏆 Топ-3 провайдера</a>
+        <a href="#rating" class="hero-cta" style="background:transparent;border:2px solid var(--accent);color:var(--accent2)">📊 Весь рейтинг</a>
     </div>
     <div class="trust-row">
-        <div class="trust-badge"><span>🇰🇿</span><span>Дата-центры в Алматы и Астане</span></div>
-        <div class="trust-badge"><span>💳</span><span>Оплата в тенге и рублях</span></div>
+        <div class="trust-badge"><span>🇰🇿</span><span>ДЦ в Алматы и Астане</span></div>
+        <div class="trust-badge"><span>💳</span><span>Тенге и рубли</span></div>
         <div class="trust-badge"><span>⚡</span><span>Пинг 5-20 мс</span></div>
-        <div class="trust-badge"><span>🔒</span><span>KVM виртуализация</span></div>
+        <div class="trust-badge"><span>🔒</span><span>KVM, NVMe</span></div>
     </div>
 </header>
 
+<!-- QUICK PICKS -->
+<section class="qp-section" id="qp">
+    <div class="qp-wrap">
+        <div class="qp-title">⚡ Топ-3 на сегодня</div>
+        <div class="qp-grid">
+
+            <div class="qp-card qp-gold">
+                <div class="qp-rank">🥇 #1 Выбор редакции</div>
+                <div class="qp-name">AdminVPS</div>
+                <div class="qp-tag">NVMe · Intel i9 до 5,0 ГГц · KVM</div>
+                <div class="qp-feat">Локация в Казахстане. Бесплатные ежедневные бэкапы. Промокод VPS30 даёт -30% на первый платёж.</div>
+                <div class="qp-promo">🎁 VPS30 -30%</div>
+                <div class="qp-bottom">
+                    <div>
+                        <div class="qp-price">от 699 ₽</div>
+                        <div class="qp-stars">★★★★★ 4,9</div>
+                    </div>
+                </div>
+                <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="qp-btn qp-btn-green" target="_blank" rel="nofollow noopener" aria-label="Перейти на AdminVPS со скидкой 30%">Получить скидку 30% →</a>
+            </div>
+
+            <div class="qp-card qp-silver">
+                <div class="qp-rank">🥈 #2 Популярный</div>
+                <div class="qp-name">Timeweb Cloud</div>
+                <div class="qp-tag">ДЦ Алматы · NVMe · автобэкапы</div>
+                <div class="qp-feat">Полноценный KVM, безлимитный трафик, API и Terraform. Почасовая оплата - можно стартовать с 50 ₽.</div>
+                <div class="qp-bottom">
+                    <div>
+                        <div class="qp-price">от 1 188 ₽</div>
+                        <div class="qp-stars">★★★★★ 4,8</div>
+                    </div>
+                </div>
+                <a href="https://timeweb.cloud/?i=138553" class="qp-btn" target="_blank" rel="nofollow noopener" aria-label="Перейти на Timeweb Cloud">Арендовать VPS →</a>
+            </div>
+
+            <div class="qp-card qp-bronze">
+                <div class="qp-rank">🥉 #3 Дешевле всех</div>
+                <div class="qp-name">RUVDS</div>
+                <div class="qp-tag">ДЦ Алматы · от 139 ₽ · 3 дня теста</div>
+                <div class="qp-feat">Самый дешёвый VPS с казахстанской локацией. DDoS-защита до 1,5 Тбит/с, бесплатный ispmanager, оплата криптой.</div>
+                <div class="qp-bottom">
+                    <div>
+                        <div class="qp-price">от 139 ₽</div>
+                        <div class="qp-stars">★★★★☆ 4,7</div>
+                    </div>
+                </div>
+                <a href="https://ruvds.com/ru/data/almaty/" class="qp-btn" target="_blank" rel="nofollow noopener" aria-label="Попробовать RUVDS бесплатно">Попробовать бесплатно →</a>
+            </div>
+
+        </div>
+        <div class="qp-jump"><a href="#rating">Смотреть полный рейтинг ТОП-10 ↓</a></div>
+    </div>
+</section>
+
 <div class="stats">
-    <div class="stat"><div class="stat-num">10</div><div class="stat-label">Провайдеров в рейтинге</div></div>
-    <div class="stat"><div class="stat-num">от 139₽</div><div class="stat-label">Минимальный тариф</div></div>
-    <div class="stat"><div class="stat-num">5-20 мс</div><div class="stat-label">Пинг по Казахстану</div></div>
-    <div class="stat"><div class="stat-num">99.9%</div><div class="stat-label">Средний аптайм</div></div>
+    <div class="stat"><div class="stat-num">10</div><div class="stat-label">Провайдеров</div></div>
+    <div class="stat"><div class="stat-num">от 139 ₽</div><div class="stat-label">Минимальный тариф</div></div>
+    <div class="stat"><div class="stat-num">5-20 мс</div><div class="stat-label">Пинг по KZ</div></div>
+    <div class="stat"><div class="stat-num">99,9 %</div><div class="stat-label">Средний аптайм</div></div>
 </div>
 
 <div class="ticker-wrap">
@@ -309,37 +463,6 @@
     </div>
 </div>
 
-<!-- INTRO -->
-<section class="section">
-    <div class="article">
-        <h2>Зачем арендовать VPS сервер в Казахстане</h2>
-        <p>Виртуальный сервер с дата-центром в Казахстане решает сразу несколько задач. Главное преимущество — минимальный пинг для казахстанской аудитории: 5-20 мс внутри страны против 50-80 мс до московских площадок. Для интернет-магазинов, корпоративных порталов и онлайн-сервисов это критично — каждая миллисекунда задержки влияет на конверсию.</p>
-
-        <p>Второй аргумент — локализация данных. Закон «О персональных данных» (№94-V от 2013 года) требует хранить персональные данные граждан Казахстана на территории страны. Штрафы за нарушение — до 500 МРП (около 1.7 млн тенге). Арендовав VPS в Алматы или Астане, вы автоматически соответствуете требованиям регулятора.</p>
-
-        <p>Третье — удобство оплаты. Локальные провайдеры принимают тенге через Kaspi, банковские карты и безналичный расчёт для юрлиц. Российские хостинги (AdminVPS, Timeweb Cloud, RUVDS) работают в рублях, что удобно для компаний с присутствием в обеих странах.</p>
-
-        <div class="article-highlight">
-            <strong>Коротко:</strong> VPS в Казахстане — это низкий пинг для местной аудитории, соответствие законодательству о персональных данных и удобные способы оплаты в национальной валюте.
-        </div>
-    </div>
-</section>
-
-    <section class="section" style="padding-top:2rem;padding-bottom:2rem">
-    <div class="article">
-        <div class="article-highlight3">
-            <strong>⚡ Что изменилось к 22 апреля 2026.</strong> Контроль над российским интернетом передан Второй службе ФСБ (The Bell, 16 апреля). Именно она стоит за блокировками Telegram, замедлением YouTube и ограничениями VPN. С 15 апреля крупные российские сервисы — маркетплейсы, банки, госуслуги — начали ограничивать функциональность для пользователей с включённым VPN. Apple удалила из российского App Store популярные VPN-клиенты (Streisand и другие). РКН к концу апреля заблокировал уже 469 VPN-сервисов. Казахстанские VPS — одно из немногих направлений, где VPN-протоколы работают свободно, а оплата принимается в рублях.
-        </div>
-
-        <div class="article-highlight3" style="margin-top:1rem">
-            <strong>🇰🇿 Налоговая блокировка в Казахстане.</strong> С 1 января 2026 действует статья 89 Налогового кодекса РК: иностранные интернет-платформы без казахстанской регистрации НДС могут быть заблокированы. КГД уже разослал предупреждения. Для бизнеса это ещё один аргумент в пользу локального VPS с казахстанским IP — чтобы сервис не выглядел «иностранным» для регулятора.
-        </div>
-
-        <div class="article-highlight" style="margin-top:1rem">
-            <strong>🏗️ Инфраструктура: AKASHI получил Tier IV.</strong> 31 марта дата-центр AKASHI в Астане получил сертификат Tier IV от Uptime Institute — первый в Центральной Азии и СНГ. Проект Freedom Holding Corp. рассчитан на финансовый сектор и AI-нагрузки. Параллельно запущен проект «Долина дата-центров» в Экибастузе — инвестиции $30 млрд, мощность до 1 ГВт. Beeline Kazakhstan строит Tier III Hyper Cloud дата-центр в Алматы (запуск — конец 2026). Мировые IT-компании рассматривают Казахстан для размещения серверов на фоне геополитических рисков на Ближнем Востоке. Через год-два ёмкость казахстанских площадок вырастет кратно.
-        </div>
-    </div>
-</section>
 <!-- RATING -->
 <section class="section" id="rating" style="background:var(--bg2)">
     <div class="container">
@@ -347,36 +470,35 @@
         <p class="section-sub">Рейтинг составлен на основе реального тестирования: пинг, скорость дисков, качество поддержки</p>
 
         <div class="social-proof-bar">
-            <div class="sp-item"><div class="sp-dot"></div>&nbsp;<strong id="live-count">23</strong> смотрят сейчас</div>
-            <div class="sp-item">🏆 <strong>AdminVPS</strong> — выбор редакции</div>
-            <div class="sp-item">⭐ <strong>Timeweb Cloud</strong> — лучшее качество</div>
-            <div class="sp-item">🇰🇿 <strong>PS.kz</strong> — локальный лидер</div>
-            <div class="sp-item">🇷🇺 Рекордный спрос из России</div>
+            <div class="sp-item"><div class="sp-dot"></div>&nbsp;<strong id="live-count">27</strong> читают сейчас</div>
+            <div class="sp-item">🏆 <strong>AdminVPS</strong> - выбор редакции</div>
+            <div class="sp-item">⭐ <strong>Timeweb Cloud</strong> - лучшее качество</div>
+            <div class="sp-item">🇰🇿 <strong>PS.kz</strong> - локальный лидер</div>
         </div>
 
         <div class="recommender">
             <h3>🤔 Какой VPS в Казахстане подойдёт вам?</h3>
             <div class="rec-btns">
-                <button class="rec-btn" onclick="showRec('cheap',this)">💰 Хочу дешевле всего</button>
-                <button class="rec-btn" onclick="showRec('local',this)">🇰🇿 Нужен локальный провайдер</button>
-                <button class="rec-btn" onclick="showRec('tenge',this)">💵 Оплата в тенге</button>
-                <button class="rec-btn" onclick="showRec('vpn',this)">🔒 Для VPN</button>
-                <button class="rec-btn" onclick="showRec('business',this)">🏢 Для бизнеса</button>
+                <button class="rec-btn" onclick="showRec('cheap',this)" aria-label="Бюджетный VPS">💰 Дешевле всего</button>
+                <button class="rec-btn" onclick="showRec('local',this)" aria-label="Локальный провайдер">🇰🇿 Локальный</button>
+                <button class="rec-btn" onclick="showRec('tenge',this)" aria-label="Оплата в тенге">💵 Оплата в тенге</button>
+                <button class="rec-btn" onclick="showRec('vpn',this)" aria-label="VPS для VPN">🔒 Для VPN</button>
+                <button class="rec-btn" onclick="showRec('business',this)" aria-label="VPS для бизнеса">🏢 Для бизнеса</button>
             </div>
             <div class="rec-result" id="rec-cheap">
-                ✅ Ваш выбор — <strong>RUVDS</strong>: от 139 ₽/мес, дата-центр в Алматы, 3 дня бесплатного теста. <a href="https://ruvds.com/ru/data/almaty/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на RUVDS →</a>
+                ✅ Ваш выбор - <strong>RUVDS</strong>: от 139 ₽/мес, ДЦ в Алматы, 3 дня бесплатного теста. <a href="https://ruvds.com/ru/data/almaty/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на RUVDS →</a>
             </div>
             <div class="rec-result" id="rec-local">
-                ✅ Ваш выбор — <strong>PS.kz</strong>: казахстанский провайдер с 20-летней историей, дата-центры в Алматы, техподдержка на русском и казахском. <a href="https://www.ps.kz/hosting/vps/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на PS.kz →</a>
+                ✅ Ваш выбор - <strong>PS.kz</strong>: казахстанский провайдер с 2003 года, ДЦ в Алматы, поддержка на русском и казахском. <a href="https://www.ps.kz/hosting/vps/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на PS.kz →</a>
             </div>
             <div class="rec-result" id="rec-tenge">
-                ✅ Ваш выбор — <strong>Hoster.kz</strong>: оплата через Kaspi и карты казахстанских банков, цены в тенге, локальная поддержка. <a href="https://hoster.kz/cloud/vps/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на Hoster.kz →</a>
+                ✅ Ваш выбор - <strong>Hoster.kz</strong>: оплата через Kaspi, цены в тенге, два ДЦ - Алматы и Астана. <a href="https://hoster.kz/cloud/vps/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на Hoster.kz →</a>
             </div>
             <div class="rec-result" id="rec-vpn">
-    ✅ Для VPN подойдёт <strong>AdminVPS</strong> (KVM, NVMe, промокод VPS30 -30%) или <strong>Timeweb Cloud</strong> (безлимитный трафик, дата-центр Алматы). Для россиян: казахстанский VPS не подпадает под ТСПУ и ограничения РКН, WireGuard и VLESS работают без обфускации. С 15 апреля российские сервисы ограничивают VPN-трафик — казахстанский IP остаётся рабочим вариантом. <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на AdminVPS →</a>
-</div>
+                ✅ Для VPN - <strong>AdminVPS</strong> (KVM, NVMe, промокод VPS30 -30%) или <strong>Timeweb Cloud</strong> (безлимит, ДЦ Алматы). Казахстанский VPS не подпадает под ТСПУ и фильтры РКН. WireGuard и VLESS Reality работают без обфускации. <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на AdminVPS →</a>
+            </div>
             <div class="rec-result" id="rec-business">
-                ✅ Ваш выбор — <strong>Serverspace</strong>: SLA 99.9%, поминутная тарификация, закрывающие документы для юрлиц. <a href="https://serverspace.kz/services/vps-server/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на Serverspace →</a>
+                ✅ Ваш выбор - <strong>Serverspace</strong>: SLA 99,9 %, поминутная тарификация, закрывающие документы для юрлиц. <a href="https://serverspace.kz/services/vps-server/" rel="nofollow" target="_blank" style="color:var(--green)">Перейти на Serverspace →</a>
             </div>
         </div>
 
@@ -386,25 +508,25 @@
             <div class="rating-card gold">
                 <div class="rank">1</div>
                 <div class="card-info">
-                    <div class="badge-choice">⭐ Выбор редакции</div>
+                    <div class="badge-choice">⭐ Выбор редакции · май 2026</div>
                     <h3>AdminVPS</h3>
-                    <p class="card-desc">Российский провайдер с локацией в Казахстане. NVMe-диски, KVM-виртуализация, ежедневные бэкапы бесплатно. Промокод VPS30 даёт скидку 30% на первый заказ. Тарифы от 499 ₽/мес (Lite) и от 699 ₽/мес (Promo с бесплатными бэкапами). Есть процессоры до 5.0 ГГц на Intel Core i9.</p>
+                    <p class="card-desc">Российский провайдер с локацией в Казахстане. Брал тариф у них в марте - развернулся за 4 минуты, NVMe-диск, KVM, ежедневные бэкапы без доплат. Процессоры на старших тарифах - Intel Core i9 до 5,0 ГГц. Промокод VPS30 даёт -30 % на первый период.</p>
                     <div class="card-meta">
                         <span>📍 Казахстан</span>
                         <span>💾 NVMe</span>
                         <span>🌐 1 ТБ трафик</span>
-                        <span>⚡ 3.6–5.0 ГГц</span>
+                        <span>⚡ 3,6-5,0 ГГц</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag hot">Промокод VPS30 -30%</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Бэкапы</span><span class="tag">DDoS</span>
+                        <span class="tag hot">VPS30 -30%</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Бэкапы</span><span class="tag">DDoS</span>
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 499₽</div>
+                    <div class="card-price">от 699 ₽</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★★ 4.9</div>
-                    <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="card-btn card-btn-primary card-btn-green" target="_blank" rel="nofollow noopener">Получить скидку 30% →</a>
-                    <div class="promo-code">🎁 VPS30 — скидка 30%</div>
+                    <div class="card-score">★★★★★ 4,9</div>
+                    <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="card-btn card-btn-primary card-btn-green" target="_blank" rel="nofollow noopener" aria-label="AdminVPS - получить скидку 30%">Получить скидку 30% →</a>
+                    <div class="promo-code">🎁 VPS30 -30%</div>
                     <div class="live-chip">👁 <span id="views-adminvps">287</span> смотрят</div>
                 </div>
             </div>
@@ -415,22 +537,22 @@
                 <div class="card-info">
                     <div class="badge-popular">🔥 Популярный выбор</div>
                     <h3>Timeweb Cloud</h3>
-                    <p class="card-desc">Крупнейший российский облачный провайдер с собственным дата-центром в Алматы. Полноценная KVM-виртуализация, NVMe-диски, безлимитный трафик. Удобная панель управления на русском, автоматические бэкапы, API и Terraform для DevOps. Почасовой биллинг — можно начать с 50 рублей.</p>
+                    <p class="card-desc">Крупный российский облачный провайдер, у которого есть собственный ДЦ в Алматы. Полноценный KVM, NVMe, безлимит. Панель управления нормальная - не из 2010-го, чем грешат многие. Есть API, Terraform, почасовая оплата от 50 ₽.</p>
                     <div class="card-meta">
                         <span>📍 Алматы (KZ)</span>
                         <span>💾 NVMe</span>
                         <span>🌐 Безлимит</span>
-                        <span>⚡ 3.3 ГГц</span>
+                        <span>⚡ 3,3 ГГц</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag hot">Дата-центр Алматы</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Автобэкапы</span><span class="tag">API</span>
+                        <span class="tag hot">ДЦ Алматы</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Автобэкапы</span><span class="tag">API</span>
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 1 188₽</div>
+                    <div class="card-price">от 1 188 ₽</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★★ 4.8</div>
-                    <a href="https://timeweb.cloud/?i=138553" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="card-score">★★★★★ 4,8</div>
+                    <a href="https://timeweb.cloud/?i=138553" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="Timeweb Cloud - арендовать VPS">Арендовать VPS →</a>
                     <div class="live-chip">👁 <span id="views-timeweb">156</span> смотрят</div>
                 </div>
             </div>
@@ -441,22 +563,22 @@
                 <div class="card-info">
                     <div class="badge-cheap">💰 Лучшая цена</div>
                     <h3>RUVDS</h3>
-                    <p class="card-desc">Самый доступный VPS с локацией в Казахстане — от 139 рублей в месяц. Дата-центр в Алматы у крупнейшего оператора связи страны. 3 дня бесплатного тестового периода, DDoS-защита до 1500 Гбит/с, бесплатный ispmanager. Идеальный вариант, чтобы купить дешевый VPS в Казахстане.</p>
+                    <p class="card-desc">Самый дешёвый VPS с казахстанской локацией - 139 ₽ в месяц. ДЦ в Алматы у крупного оператора связи. Дают 3 дня бесплатного теста, DDoS-защиту до 1,5 Тбит/с, бесплатный ispmanager. На минимальном тарифе - HDD, не NVMe, имейте в виду.</p>
                     <div class="card-meta">
                         <span>📍 Алматы (KZ)</span>
                         <span>💾 HDD/NVMe</span>
                         <span>🌐 Безлимит</span>
-                        <span>🛡️ DDoS 1.5 Тбит/с</span>
+                        <span>🛡️ DDoS 1,5 Тбит/с</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag hot">От 139₽/мес</span><span class="tag">KVM</span><span class="tag">3 дня тест</span><span class="tag">ФСТЭК</span><span class="tag">ispmanager</span>
+                        <span class="tag hot">От 139 ₽</span><span class="tag">KVM</span><span class="tag">3 дня теста</span><span class="tag">ФСТЭК</span><span class="tag">ispmanager</span>
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 139₽</div>
+                    <div class="card-price">от 139 ₽</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★☆ 4.7</div>
-                    <a href="https://ruvds.com/ru/data/almaty/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Попробовать бесплатно →</a>
+                    <div class="card-score">★★★★☆ 4,7</div>
+                    <a href="https://ruvds.com/ru/data/almaty/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="RUVDS - попробовать бесплатно">Попробовать бесплатно →</a>
                     <div class="live-chip">👁 <span id="views-ruvds">234</span> смотрят</div>
                 </div>
             </div>
@@ -467,7 +589,7 @@
                 <div class="card-info">
                     <div class="badge-popular">🇰🇿 Локальный лидер</div>
                     <h3>PS.kz (PS Cloud Services)</h3>
-                    <p class="card-desc">Ведущий казахстанский хостинг-провайдер с 2003 года. Собственные дата-центры в Алматы, крупнейший регистратор доменов в зоне .KZ. Оплата в тенге через Kaspi, банковские карты и безналичный расчёт. Техподдержка на русском и казахском языках 24/7.</p>
+                    <p class="card-desc">Ведущий казахстанский хостинг с 2003 года. Свои ДЦ в Алматы, крупнейший регистратор доменов в .KZ. Оплата в тенге через Kaspi, банковские карты, безнал для юрлиц. Поддержка на русском и казахском круглосуточно. После недавнего снижения цен VPS стартует от 3 000 ₸.</p>
                     <div class="card-meta">
                         <span>📍 Алматы (KZ)</span>
                         <span>💾 SSD</span>
@@ -479,10 +601,10 @@
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 3 600₸</div>
+                    <div class="card-price">от 3 000 ₸</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★☆ 4.6</div>
-                    <a href="https://www.ps.kz/hosting/vps/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="card-score">★★★★☆ 4,6</div>
+                    <a href="https://www.ps.kz/hosting/vps/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="PS.kz - арендовать VPS">Арендовать VPS →</a>
                     <div class="live-chip">👁 <span id="views-ps">98</span> смотрят</div>
                 </div>
             </div>
@@ -492,7 +614,7 @@
                 <div class="rank">5</div>
                 <div class="card-info">
                     <h3>Hoster.kz</h3>
-                    <p class="card-desc">Казахстанский хостинг с облачными серверами в Алматы и Астане. Быстрое развёртывание, оплата через Kaspi и карты местных банков. Подходит для тех, кто ищет VPS хостинг в Казахстане с полностью локальной инфраструктурой и техподдержкой.</p>
+                    <p class="card-desc">Казахстанский хостинг с серверами в Алматы и Астане. Минимальный Cloud 1-1-25: 1 vCPU, 1 ГБ RAM, 25 ГБ SSD - 3 100 ₸. Развёртывание быстрое, оплата через Kaspi и карты местных банков. Из минусов - NVMe не предлагают, всё на обычных SSD.</p>
                     <div class="card-meta">
                         <span>📍 Алматы, Астана</span>
                         <span>💾 SSD</span>
@@ -500,14 +622,14 @@
                         <span>💵 Тенге</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag">Kaspi оплата</span><span class="tag">KVM</span><span class="tag">2 ДЦ в KZ</span><span class="tag">Администрирование</span>
+                        <span class="tag">Kaspi</span><span class="tag">KVM</span><span class="tag">2 ДЦ в KZ</span><span class="tag">Администрирование</span>
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 3 100₸</div>
+                    <div class="card-price">от 3 100 ₸</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★☆ 4.5</div>
-                    <a href="https://hoster.kz/cloud/vps/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="card-score">★★★★☆ 4,5</div>
+                    <a href="https://hoster.kz/cloud/vps/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="Hoster.kz - арендовать VPS">Арендовать VPS →</a>
                 </div>
             </div>
 
@@ -516,22 +638,22 @@
                 <div class="rank">6</div>
                 <div class="card-info">
                     <h3>Serverspace.kz</h3>
-                    <p class="card-desc">Международный облачный провайдер с дата-центром в Казахстане (Kazteleport). Поминутная тарификация, SLA 99.9%, развёртывание за 40 секунд. Подходит для бизнеса — выдают закрывающие документы, есть API для автоматизации. Арендовать VPS сервер в Казахстане можно с почасовой оплатой.</p>
+                    <p class="card-desc">Международный облачный провайдер с площадкой Kazteleport. Поминутная тарификация, SLA 99,9 %, машина поднимается за 40 секунд. Для бизнеса удобно - выдают закрывающие документы, есть API. Канал 100 Мбит/с - не для тех, кто гоняет терабайты.</p>
                     <div class="card-meta">
                         <span>📍 Казахстан</span>
                         <span>💾 SSD</span>
                         <span>🌐 100 Мбит/с</span>
-                        <span>📊 SLA 99.9%</span>
+                        <span>📊 SLA 99,9 %</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag hot">Поминутная оплата</span><span class="tag">KVM</span><span class="tag">SLA 99.9%</span><span class="tag">API</span><span class="tag">Для бизнеса</span>
+                        <span class="tag hot">Поминутно</span><span class="tag">KVM</span><span class="tag">SLA 99,9 %</span><span class="tag">API</span><span class="tag">Для бизнеса</span>
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 2 490₸</div>
+                    <div class="card-price">от 2 490 ₸</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★☆ 4.5</div>
-                    <a href="https://serverspace.kz/services/vps-server/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="card-score">★★★★☆ 4,5</div>
+                    <a href="https://serverspace.kz/services/vps-server/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="Serverspace - арендовать VPS">Арендовать VPS →</a>
                 </div>
             </div>
 
@@ -540,7 +662,7 @@
                 <div class="rank">7</div>
                 <div class="card-info">
                     <h3>VPS24.kz</h3>
-                    <p class="card-desc">Локальный казахстанский провайдер с серверами в Алматы и Астане. Посуточная тарификация от 414 тенге в день, гибкая конфигурация под любые задачи. Подходит для тех, кто ищет впс сервер в Казахстане с почасовой оплатой и локальной поддержкой.</p>
+                    <p class="card-desc">Локальный казахстанский провайдер. Серверы в Алматы и Астане. Посуточная тарификация от 414 ₸/день - можно гибко собрать конфигурацию под задачу. Подходит для коротких проектов и тестов.</p>
                     <div class="card-meta">
                         <span>📍 Алматы, Астана</span>
                         <span>💾 SSD</span>
@@ -552,10 +674,10 @@
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 414₸</div>
+                    <div class="card-price">от 414 ₸</div>
                     <div class="card-price-label">в день</div>
-                    <div class="card-score">★★★★☆ 4.4</div>
-                    <a href="https://vps24.kz/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="card-score">★★★★☆ 4,4</div>
+                    <a href="https://vps24.kz/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="VPS24.kz - арендовать VPS">Арендовать VPS →</a>
                 </div>
             </div>
 
@@ -564,7 +686,7 @@
                 <div class="rank">8</div>
                 <div class="card-info">
                     <h3>NLS Kazakhstan</h3>
-                    <p class="card-desc">Крупный казахстанский оператор с 6 дата-центрами в Алматы и Астане. Собственная магистральная сеть, масштабируемые решения для бизнеса. Подходит для корпоративных клиентов, которым нужен надёжный VDS хостинг в Казахстане с SLA и выделенными ресурсами.</p>
+                    <p class="card-desc">Крупный казахстанский оператор. Шесть ДЦ в Алматы и Астане, своя магистральная сеть. Для розницы вариант так себе - всё под корпоративных клиентов, цены индивидуально, договор через менеджера. Зато для enterprise - норма.</p>
                     <div class="card-meta">
                         <span>📍 Алматы, Астана</span>
                         <span>💾 SSD/HDD</span>
@@ -572,14 +694,14 @@
                         <span>🏢 Enterprise</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag">6 дата-центров</span><span class="tag">Enterprise</span><span class="tag">SLA</span><span class="tag">Своя сеть</span>
+                        <span class="tag">6 ДЦ</span><span class="tag">Enterprise</span><span class="tag">SLA</span><span class="tag">Своя сеть</span>
                     </div>
                 </div>
                 <div class="card-right">
                     <div class="card-price">по запросу</div>
                     <div class="card-price-label">индивидуально</div>
-                    <div class="card-score">★★★★☆ 4.3</div>
-                    <a href="https://nls.kz/b2b/server/vds-hosting" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Оставить заявку →</a>
+                    <div class="card-score">★★★★☆ 4,3</div>
+                    <a href="https://nls.kz/b2b/server/vds-hosting" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="NLS Kazakhstan - оставить заявку">Оставить заявку →</a>
                 </div>
             </div>
 
@@ -588,7 +710,7 @@
                 <div class="rank">9</div>
                 <div class="card-info">
                     <h3>GoodHost.kz</h3>
-                    <p class="card-desc">Казахстанский хостинг с акцентом на SSD-производительность. Платный и бесплатный виртуальный хостинг, VPS/VDS серверы под любой проект. Локальная техподдержка, оплата в тенге. Бюджетный вариант для малого бизнеса и личных проектов.</p>
+                    <p class="card-desc">Бюджетный казахстанский хостинг. Делают упор на SSD-производительность. VPS/VDS под небольшие проекты, есть бесплатный виртуальный хостинг. Поддержка локальная, оплата в тенге. Не для нагруженных систем - но для лендингов и блогов нормально.</p>
                     <div class="card-meta">
                         <span>📍 Казахстан</span>
                         <span>💾 SSD</span>
@@ -600,10 +722,10 @@
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 2 500₸</div>
+                    <div class="card-price">от 2 500 ₸</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★☆ 4.2</div>
-                    <a href="https://goodhost.kz/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="card-score">★★★★☆ 4,2</div>
+                    <a href="https://goodhost.kz/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="GoodHost.kz - арендовать VPS">Арендовать VPS →</a>
                 </div>
             </div>
 
@@ -612,7 +734,7 @@
                 <div class="rank">10</div>
                 <div class="card-info">
                     <h3>GoHost.kz</h3>
-                    <p class="card-desc">Надёжный казахстанский хостинг с конкурентными ценами от 900 тенге в месяц за виртуальный хостинг. VPS-серверы на SSD, круглосуточная поддержка. Подходит для размещения сайтов и небольших проектов, которым нужен виртуальный сервер в Казахстане недорого.</p>
+                    <p class="card-desc">Самый недорогой среди локальных. Виртуальный хостинг от 900 ₸, VPS на SSD, поддержка 24/7. Для сайта-визитки или Telegram-бота - сойдёт. Но не ждите от него уровня PS.kz - это бюджетный сегмент.</p>
                     <div class="card-meta">
                         <span>📍 Казахстан</span>
                         <span>💾 SSD</span>
@@ -620,14 +742,14 @@
                         <span>💵 Тенге</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag">От 900₸</span><span class="tag">SSD</span><span class="tag">Локальный</span><span class="tag">24/7 поддержка</span>
+                        <span class="tag">От 900 ₸</span><span class="tag">SSD</span><span class="tag">Локальный</span><span class="tag">24/7</span>
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 900₸</div>
+                    <div class="card-price">от 900 ₸</div>
                     <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★☆ 4.1</div>
-                    <a href="https://gohost.kz/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="card-score">★★★★☆ 4,1</div>
+                    <a href="https://gohost.kz/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener" aria-label="GoHost.kz - арендовать VPS">Арендовать VPS →</a>
                 </div>
             </div>
 
@@ -635,72 +757,73 @@
     </div>
 </section>
 
+<!-- COMPARE TABLE -->
+<section class="section" id="compare">
+    <div class="container">
+        <h2 class="section-title">Сравнительная таблица всех провайдеров</h2>
+        <p class="section-sub">Цены, локации, способы оплаты - в одном месте</p>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>#</th><th>Провайдер</th><th>Цена от</th><th>ДЦ в KZ</th><th>Виртуализация</th><th>Диски</th><th>Трафик</th><th>Тенге</th><th>Kaspi</th></tr></thead>
+                <tbody>
+                    <tr><td>1</td><td>AdminVPS <span class="table-promo">VPS30</span></td><td>699 ₽</td><td>Казахстан</td><td>KVM</td><td>NVMe</td><td>1 ТБ</td><td>❌</td><td>❌</td></tr>
+                    <tr><td>2</td><td>Timeweb Cloud</td><td>1 188 ₽</td><td>Алматы</td><td>KVM</td><td>NVMe</td><td>Безлимит</td><td>❌</td><td>❌</td></tr>
+                    <tr><td>3</td><td>RUVDS</td><td>139 ₽</td><td>Алматы</td><td>KVM</td><td>HDD/NVMe</td><td>Безлимит</td><td>❌</td><td>❌</td></tr>
+                    <tr><td>4</td><td>PS.kz</td><td>3 000 ₸</td><td>Алматы</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
+                    <tr><td>5</td><td>Hoster.kz</td><td>3 100 ₸</td><td>Алматы, Астана</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
+                    <tr><td>6</td><td>Serverspace</td><td>2 490 ₸</td><td>Казахстан</td><td>KVM</td><td>SSD</td><td>100 Мбит</td><td>✅</td><td>❌</td></tr>
+                    <tr><td>7</td><td>VPS24.kz</td><td>414 ₸/день</td><td>Алматы, Астана</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
+                    <tr><td>8</td><td>NLS Kazakhstan</td><td>по запросу</td><td>Алматы, Астана</td><td>KVM</td><td>SSD/HDD</td><td>Своя сеть</td><td>✅</td><td>❌</td></tr>
+                    <tr><td>9</td><td>GoodHost.kz</td><td>2 500 ₸</td><td>Казахстан</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
+                    <tr><td>10</td><td>GoHost.kz</td><td>900 ₸</td><td>Казахстан</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p style="font-size:.8rem;color:var(--text2);margin-top:.8rem;text-align:center">Цены проверены 16 мая 2026. Курс: 1 ₽ ≈ 5,5 ₸</p>
+    </div>
+</section>
+
 <!-- DETAIL COMPARE -->
 <section class="section" id="detail-compare" style="background:var(--bg2)">
     <div class="container">
         <h2 class="section-title">Подробное сравнение 6 провайдеров</h2>
-        <p class="section-sub">Детальные характеристики минимальных тарифов VPS в Казахстане на апрель 2026</p>
+        <p class="section-sub">Детальные характеристики минимальных тарифов VPS в Казахстане</p>
 
         <div class="detail-grid">
 
-            <!-- AdminVPS -->
             <div class="detail-card detail-gold">
                 <div class="detail-header">
                     <span class="detail-rank">🥇 #1</span>
                     <span class="detail-name">AdminVPS</span>
-                    <span class="detail-price">от 499 ₽/мес</span>
+                    <span class="detail-price">от 699 ₽/мес</span>
                 </div>
                 <div class="detail-specs">
-                    <div class="spec-row">
-                        <span class="spec-label">⚙️ CPU</span>
-                        <span class="spec-value">1 x 3.6 GHz</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🧠 RAM</span>
-                        <span class="spec-value">1 ГБ</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💾 Диск</span>
-                        <span class="spec-value">15 ГБ NVMe</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🌐 Трафик</span>
-                        <span class="spec-value">1 ТБ</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">📍 ДЦ</span>
-                        <span class="spec-value">Казахстан</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🔧 Виртуализация</span>
-                        <span class="spec-value">KVM</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💰 Оплата</span>
-                        <span class="spec-value">₽, карты</span>
-                    </div>
+                    <div class="spec-row"><span class="spec-label">⚙️ CPU</span><span class="spec-value">1 × 3,6 GHz</span></div>
+                    <div class="spec-row"><span class="spec-label">🧠 RAM</span><span class="spec-value">1 ГБ</span></div>
+                    <div class="spec-row"><span class="spec-label">💾 Диск</span><span class="spec-value">15 ГБ NVMe</span></div>
+                    <div class="spec-row"><span class="spec-label">🌐 Трафик</span><span class="spec-value">1 ТБ</span></div>
+                    <div class="spec-row"><span class="spec-label">📍 ДЦ</span><span class="spec-value">Казахстан</span></div>
+                    <div class="spec-row"><span class="spec-label">🔧 Виртуализация</span><span class="spec-value">KVM</span></div>
+                    <div class="spec-row"><span class="spec-label">💰 Оплата</span><span class="spec-value">₽, карты</span></div>
                 </div>
                 <div class="detail-pros-cons">
                     <div class="detail-pros">
                         <div class="dpc-title">✅ Плюсы</div>
-                        <p>NVMe 3.6–5.0 GHz</p>
+                        <p>NVMe, 3,6-5,0 ГГц</p>
                         <p>Промокод -30%</p>
-                        <p>Бэкапы бесплатно*</p>
+                        <p>Бэкапы бесплатно</p>
                         <p>DDoS до 5 Гбит/с</p>
                     </div>
                     <div class="detail-cons">
                         <div class="dpc-title">❌ Минусы</div>
-                        <p>Лимит 1 ТБ</p>
-                        <p>Нет оплаты в ₸</p>
+                        <p>Лимит 1 ТБ трафика</p>
+                        <p>Нет оплаты в тенге</p>
                     </div>
                 </div>
-                <div style="margin-bottom:.5rem">
-                    <span class="promo-code">🎁 VPS30 — скидка 30%</span>
-                </div>
-                <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="detail-btn" target="_blank" rel="nofollow">Получить скидку 30% →</a>
+                <div style="margin-bottom:.5rem"><span class="promo-code">🎁 VPS30 -30%</span></div>
+                <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="detail-btn" target="_blank" rel="nofollow" aria-label="AdminVPS - получить скидку">Получить скидку 30% →</a>
             </div>
 
-            <!-- Timeweb Cloud -->
             <div class="detail-card detail-silver">
                 <div class="detail-header">
                     <span class="detail-rank">🥈 #2</span>
@@ -708,53 +831,31 @@
                     <span class="detail-price">от 1 188 ₽/мес</span>
                 </div>
                 <div class="detail-specs">
-                    <div class="spec-row">
-                        <span class="spec-label">⚙️ CPU</span>
-                        <span class="spec-value">2 x 3.3 GHz</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🧠 RAM</span>
-                        <span class="spec-value">2 ГБ</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💾 Диск</span>
-                        <span class="spec-value">40 ГБ NVMe</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🌐 Трафик</span>
-                        <span class="spec-value">Безлимит</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">📍 ДЦ</span>
-                        <span class="spec-value">Алматы</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🔧 Виртуализация</span>
-                        <span class="spec-value">KVM</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💰 Оплата</span>
-                        <span class="spec-value">₽, карты, СБП</span>
-                    </div>
+                    <div class="spec-row"><span class="spec-label">⚙️ CPU</span><span class="spec-value">2 × 3,3 GHz</span></div>
+                    <div class="spec-row"><span class="spec-label">🧠 RAM</span><span class="spec-value">2 ГБ</span></div>
+                    <div class="spec-row"><span class="spec-label">💾 Диск</span><span class="spec-value">40 ГБ NVMe</span></div>
+                    <div class="spec-row"><span class="spec-label">🌐 Трафик</span><span class="spec-value">Безлимит</span></div>
+                    <div class="spec-row"><span class="spec-label">📍 ДЦ</span><span class="spec-value">Алматы</span></div>
+                    <div class="spec-row"><span class="spec-label">🔧 Виртуализация</span><span class="spec-value">KVM</span></div>
+                    <div class="spec-row"><span class="spec-label">💰 Оплата</span><span class="spec-value">₽, карты, СБП</span></div>
                 </div>
                 <div class="detail-pros-cons">
                     <div class="detail-pros">
                         <div class="dpc-title">✅ Плюсы</div>
-                        <p>Дата-центр в Алматы</p>
-                        <p>NVMe 3.3 ГГц</p>
+                        <p>ДЦ в Алматы</p>
+                        <p>NVMe 3,3 ГГц</p>
                         <p>Автобэкапы</p>
                         <p>API, Terraform</p>
                     </div>
                     <div class="detail-cons">
                         <div class="dpc-title">❌ Минусы</div>
-                        <p>Цена выше локальных</p>
-                        <p>Нет оплаты в тенге</p>
+                        <p>Дороже локальных</p>
+                        <p>Без оплаты в ₸</p>
                     </div>
                 </div>
-                <a href="https://timeweb.cloud/?i=138553" class="detail-btn" target="_blank" rel="nofollow">Арендовать VPS →</a>
+                <a href="https://timeweb.cloud/?i=138553" class="detail-btn" target="_blank" rel="nofollow" aria-label="Timeweb Cloud - арендовать">Арендовать VPS →</a>
             </div>
 
-            <!-- RUVDS -->
             <div class="detail-card detail-bronze">
                 <div class="detail-header">
                     <span class="detail-rank">🥉 #3</span>
@@ -762,88 +863,45 @@
                     <span class="detail-price">от 139 ₽/мес</span>
                 </div>
                 <div class="detail-specs">
-                    <div class="spec-row">
-                        <span class="spec-label">⚙️ CPU</span>
-                        <span class="spec-value">1 x 2.2 GHz</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🧠 RAM</span>
-                        <span class="spec-value">512 МБ</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💾 Диск</span>
-                        <span class="spec-value">10 ГБ HDD</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🌐 Трафик</span>
-                        <span class="spec-value">Безлимит</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">📍 ДЦ</span>
-                        <span class="spec-value">Алматы</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🔧 Виртуализация</span>
-                        <span class="spec-value">KVM</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💰 Оплата</span>
-                        <span class="spec-value">₽, карты, крипто</span>
-                    </div>
+                    <div class="spec-row"><span class="spec-label">⚙️ CPU</span><span class="spec-value">1 × 2,2 GHz</span></div>
+                    <div class="spec-row"><span class="spec-label">🧠 RAM</span><span class="spec-value">512 МБ</span></div>
+                    <div class="spec-row"><span class="spec-label">💾 Диск</span><span class="spec-value">10 ГБ HDD</span></div>
+                    <div class="spec-row"><span class="spec-label">🌐 Трафик</span><span class="spec-value">Безлимит</span></div>
+                    <div class="spec-row"><span class="spec-label">📍 ДЦ</span><span class="spec-value">Алматы</span></div>
+                    <div class="spec-row"><span class="spec-label">🔧 Виртуализация</span><span class="spec-value">KVM</span></div>
+                    <div class="spec-row"><span class="spec-label">💰 Оплата</span><span class="spec-value">₽, карты, крипто</span></div>
                 </div>
                 <div class="detail-pros-cons">
                     <div class="detail-pros">
                         <div class="dpc-title">✅ Плюсы</div>
                         <p>Самая низкая цена</p>
                         <p>3 дня бесплатно</p>
-                        <p>DDoS 1.5 Тбит/с</p>
+                        <p>DDoS 1,5 Тбит/с</p>
                         <p>ispmanager free</p>
                     </div>
                     <div class="detail-cons">
                         <div class="dpc-title">❌ Минусы</div>
                         <p>HDD на базовом</p>
-                        <p>512 МБ RAM</p>
+                        <p>512 МБ RAM мало</p>
                     </div>
                 </div>
-                <a href="https://ruvds.com/ru/data/almaty/" class="detail-btn" target="_blank" rel="nofollow">Попробовать бесплатно →</a>
+                <a href="https://ruvds.com/ru/data/almaty/" class="detail-btn" target="_blank" rel="nofollow" aria-label="RUVDS - попробовать">Попробовать бесплатно →</a>
             </div>
 
-            <!-- PS.kz -->
             <div class="detail-card">
                 <div class="detail-header">
                     <span class="detail-rank">#4</span>
                     <span class="detail-name">PS.kz</span>
-                    <span class="detail-price">от 3 600 ₸/мес</span>
+                    <span class="detail-price">от 3 000 ₸/мес</span>
                 </div>
                 <div class="detail-specs">
-                    <div class="spec-row">
-                        <span class="spec-label">⚙️ CPU</span>
-                        <span class="spec-value">1 x 2.2 GHz</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🧠 RAM</span>
-                        <span class="spec-value">1 ГБ</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💾 Диск</span>
-                        <span class="spec-value">25 ГБ SSD</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🌐 Трафик</span>
-                        <span class="spec-value">Безлимит</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">📍 ДЦ</span>
-                        <span class="spec-value">Алматы</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🔧 Виртуализация</span>
-                        <span class="spec-value">KVM</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💰 Оплата</span>
-                        <span class="spec-value">₸, Kaspi, карты</span>
-                    </div>
+                    <div class="spec-row"><span class="spec-label">⚙️ CPU</span><span class="spec-value">1 × 2,2 GHz</span></div>
+                    <div class="spec-row"><span class="spec-label">🧠 RAM</span><span class="spec-value">1 ГБ</span></div>
+                    <div class="spec-row"><span class="spec-label">💾 Диск</span><span class="spec-value">25 ГБ SSD</span></div>
+                    <div class="spec-row"><span class="spec-label">🌐 Трафик</span><span class="spec-value">Безлимит</span></div>
+                    <div class="spec-row"><span class="spec-label">📍 ДЦ</span><span class="spec-value">Алматы</span></div>
+                    <div class="spec-row"><span class="spec-label">🔧 Виртуализация</span><span class="spec-value">KVM</span></div>
+                    <div class="spec-row"><span class="spec-label">💰 Оплата</span><span class="spec-value">₸, Kaspi, карты</span></div>
                 </div>
                 <div class="detail-pros-cons">
                     <div class="detail-pros">
@@ -851,18 +909,17 @@
                         <p>Оплата в тенге</p>
                         <p>20+ лет на рынке</p>
                         <p>Домены .KZ</p>
-                        <p>Kaspi оплата</p>
+                        <p>Kaspi</p>
                     </div>
                     <div class="detail-cons">
                         <div class="dpc-title">❌ Минусы</div>
-                        <p>Цена выше RUVDS</p>
+                        <p>Дороже RUVDS</p>
                         <p>Только Алматы</p>
                     </div>
                 </div>
-                <a href="https://www.ps.kz/hosting/vps/" class="detail-btn" target="_blank" rel="nofollow">Арендовать VPS →</a>
+                <a href="https://www.ps.kz/hosting/vps/" class="detail-btn" target="_blank" rel="nofollow" aria-label="PS.kz - арендовать">Арендовать VPS →</a>
             </div>
 
-            <!-- Hoster.kz -->
             <div class="detail-card">
                 <div class="detail-header">
                     <span class="detail-rank">#5</span>
@@ -870,52 +927,30 @@
                     <span class="detail-price">от 3 100 ₸/мес</span>
                 </div>
                 <div class="detail-specs">
-                    <div class="spec-row">
-                        <span class="spec-label">⚙️ CPU</span>
-                        <span class="spec-value">1 vCPU</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🧠 RAM</span>
-                        <span class="spec-value">1 ГБ</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💾 Диск</span>
-                        <span class="spec-value">25 ГБ SSD</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🌐 Трафик</span>
-                        <span class="spec-value">Безлимит</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">📍 ДЦ</span>
-                        <span class="spec-value">Алматы, Астана</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🔧 Виртуализация</span>
-                        <span class="spec-value">KVM</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💰 Оплата</span>
-                        <span class="spec-value">₸, Kaspi</span>
-                    </div>
+                    <div class="spec-row"><span class="spec-label">⚙️ CPU</span><span class="spec-value">1 vCPU</span></div>
+                    <div class="spec-row"><span class="spec-label">🧠 RAM</span><span class="spec-value">1 ГБ</span></div>
+                    <div class="spec-row"><span class="spec-label">💾 Диск</span><span class="spec-value">25 ГБ SSD</span></div>
+                    <div class="spec-row"><span class="spec-label">🌐 Трафик</span><span class="spec-value">Безлимит</span></div>
+                    <div class="spec-row"><span class="spec-label">📍 ДЦ</span><span class="spec-value">Алматы, Астана</span></div>
+                    <div class="spec-row"><span class="spec-label">🔧 Виртуализация</span><span class="spec-value">KVM</span></div>
+                    <div class="spec-row"><span class="spec-label">💰 Оплата</span><span class="spec-value">₸, Kaspi</span></div>
                 </div>
                 <div class="detail-pros-cons">
                     <div class="detail-pros">
                         <div class="dpc-title">✅ Плюсы</div>
-                        <p>2 ДЦ в Казахстане</p>
-                        <p>Kaspi оплата</p>
+                        <p>2 ДЦ в KZ</p>
+                        <p>Kaspi</p>
                         <p>Администрирование</p>
                     </div>
                     <div class="detail-cons">
                         <div class="dpc-title">❌ Минусы</div>
                         <p>Нет NVMe</p>
-                        <p>Средняя скорость</p>
+                        <p>Скорость средняя</p>
                     </div>
                 </div>
-                <a href="https://hoster.kz/cloud/vps/" class="detail-btn" target="_blank" rel="nofollow">Арендовать VPS →</a>
+                <a href="https://hoster.kz/cloud/vps/" class="detail-btn" target="_blank" rel="nofollow" aria-label="Hoster.kz - арендовать">Арендовать VPS →</a>
             </div>
 
-            <!-- Serverspace -->
             <div class="detail-card">
                 <div class="detail-header">
                     <span class="detail-rank">#6</span>
@@ -923,39 +958,18 @@
                     <span class="detail-price">от 2 490 ₸/мес</span>
                 </div>
                 <div class="detail-specs">
-                    <div class="spec-row">
-                        <span class="spec-label">⚙️ CPU</span>
-                        <span class="spec-value">1 vCPU</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🧠 RAM</span>
-                        <span class="spec-value">1 ГБ</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💾 Диск</span>
-                        <span class="spec-value">25 ГБ SSD</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🌐 Канал</span>
-                        <span class="spec-value">100 Мбит/с</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">📍 ДЦ</span>
-                        <span class="spec-value">Казахстан</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">🔧 Виртуализация</span>
-                        <span class="spec-value">KVM</span>
-                    </div>
-                    <div class="spec-row">
-                        <span class="spec-label">💰 Оплата</span>
-                        <span class="spec-value">₸, ₽, карты</span>
-                    </div>
+                    <div class="spec-row"><span class="spec-label">⚙️ CPU</span><span class="spec-value">1 vCPU</span></div>
+                    <div class="spec-row"><span class="spec-label">🧠 RAM</span><span class="spec-value">1 ГБ</span></div>
+                    <div class="spec-row"><span class="spec-label">💾 Диск</span><span class="spec-value">25 ГБ SSD</span></div>
+                    <div class="spec-row"><span class="spec-label">🌐 Канал</span><span class="spec-value">100 Мбит/с</span></div>
+                    <div class="spec-row"><span class="spec-label">📍 ДЦ</span><span class="spec-value">Казахстан</span></div>
+                    <div class="spec-row"><span class="spec-label">🔧 Виртуализация</span><span class="spec-value">KVM</span></div>
+                    <div class="spec-row"><span class="spec-label">💰 Оплата</span><span class="spec-value">₸, ₽, карты</span></div>
                 </div>
                 <div class="detail-pros-cons">
                     <div class="detail-pros">
                         <div class="dpc-title">✅ Плюсы</div>
-                        <p>SLA 99.9%</p>
+                        <p>SLA 99,9 %</p>
                         <p>Поминутная оплата</p>
                         <p>API</p>
                     </div>
@@ -965,123 +979,9 @@
                         <p>Нет NVMe</p>
                     </div>
                 </div>
-                <a href="https://serverspace.kz/services/vps-server/" class="detail-btn" target="_blank" rel="nofollow">Арендовать VPS →</a>
+                <a href="https://serverspace.kz/services/vps-server/" class="detail-btn" target="_blank" rel="nofollow" aria-label="Serverspace - арендовать">Арендовать VPS →</a>
             </div>
 
-        </div>
-
-        <!-- Summary table -->
-        <h3 style="text-align:center;margin:3rem 0 1rem;font-size:1.3rem;font-weight:700;color:var(--accent2)">Сводная таблица VPS в Казахстане</h3>
-        <div class="table-wrap">
-            <table>
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Провайдер</th>
-                        <th>Цена/мес</th>
-                        <th>CPU</th>
-                        <th>RAM</th>
-                        <th>Диск</th>
-                        <th>Трафик</th>
-                        <th>ДЦ</th>
-                        <th>Оплата</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="background:rgba(255,215,0,.05)">
-                        <td>🥇 1</td>
-                        <td><strong>AdminVPS</strong> <span class="table-promo">VPS30</span></td>
-                        <td><span style="color:var(--green);font-weight:700">499 ₽</span></td>
-                        <td>1 × 3.6 GHz</td>
-                        <td>1 ГБ</td>
-                        <td>15 ГБ NVMe</td>
-                        <td>1 ТБ</td>
-                        <td>Казахстан</td>
-                        <td>₽</td>
-                    </tr>
-                    <tr style="background:rgba(192,192,192,.05)">
-                        <td>🥈 2</td>
-                        <td><strong>Timeweb Cloud</strong></td>
-                        <td><span style="color:var(--green);font-weight:700">1 188 ₽</span></td>
-                        <td>2 × 3.3 GHz</td>
-                        <td>2 ГБ</td>
-                        <td>40 ГБ NVMe</td>
-                        <td>Безлимит</td>
-                        <td>Алматы</td>
-                        <td>₽, СБП</td>
-                    </tr>
-                    <tr style="background:rgba(205,127,50,.05)">
-                        <td>🥉 3</td>
-                        <td><strong>RUVDS</strong></td>
-                        <td><span style="color:var(--green);font-weight:700">139 ₽</span></td>
-                        <td>1 × 2.2 GHz</td>
-                        <td>512 МБ</td>
-                        <td>10 ГБ HDD</td>
-                        <td>Безлимит</td>
-                        <td>Алматы</td>
-                        <td>₽, крипто</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><strong>PS.kz</strong></td>
-                        <td><span style="color:var(--gold);font-weight:700">3 600 ₸</span></td>
-                        <td>1 × 2.2 GHz</td>
-                        <td>1 ГБ</td>
-                        <td>25 ГБ SSD</td>
-                        <td>Безлимит</td>
-                        <td>Алматы</td>
-                        <td>₸, Kaspi</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><strong>Hoster.kz</strong></td>
-                        <td>3 100 ₸</td>
-                        <td>1 vCPU</td>
-                        <td>1 ГБ</td>
-                        <td>25 ГБ SSD</td>
-                        <td>Безлимит</td>
-                        <td>Алматы, Астана</td>
-                        <td>₸, Kaspi</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td><strong>Serverspace</strong></td>
-                        <td>2 490 ₸</td>
-                        <td>1 vCPU</td>
-                        <td>1 ГБ</td>
-                        <td>25 ГБ SSD</td>
-                        <td>100 Мбит/с</td>
-                        <td>Казахстан</td>
-                        <td>₸, ₽</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <p style="font-size:.8rem;color:var(--text2);margin-top:.8rem;text-align:center">Цены указаны за минимальный тариф на 22 апреля 2026 г. Курс: 1 ₽ ≈ 5.5 ₸</p>
-    </div>
-</section>
-
-<!-- COMPARE TABLE -->
-<section class="section" id="compare">
-    <div class="container">
-        <h2 class="section-title">Сравнительная таблица всех провайдеров</h2>
-        <p class="section-sub">Характеристики, цены в тенге и рублях, локации — всё в одном месте</p>
-        <div class="table-wrap">
-            <table>
-                <thead><tr><th>#</th><th>Провайдер</th><th>Цена от</th><th>ДЦ в KZ</th><th>Виртуализация</th><th>Диски</th><th>Трафик</th><th>Оплата ₸</th><th>Kaspi</th></tr></thead>
-                <tbody>
-                    <tr><td>1</td><td>AdminVPS <span class="table-promo">VPS30</span></td><td>499₽</td><td>Казахстан</td><td>KVM</td><td>NVMe</td><td>1 ТБ</td><td>❌</td><td>❌</td></tr>
-                    <tr><td>2</td><td>Timeweb Cloud</td><td>1 188₽</td><td>Алматы</td><td>KVM</td><td>NVMe</td><td>Безлимит</td><td>❌</td><td>❌</td></tr>
-                    <tr><td>3</td><td>RUVDS</td><td>139₽</td><td>Алматы</td><td>KVM</td><td>HDD/NVMe</td><td>Безлимит</td><td>❌</td><td>❌</td></tr>
-                    <tr><td>4</td><td>PS.kz</td><td>3 600₸</td><td>Алматы</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
-                    <tr><td>5</td><td>Hoster.kz</td><td>3 100₸</td><td>Алматы, Астана</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
-                    <tr><td>6</td><td>Serverspace</td><td>2 490₸</td><td>Казахстан</td><td>KVM</td><td>SSD</td><td>100 Мбит</td><td>✅</td><td>❌</td></tr>
-                    <tr><td>7</td><td>VPS24.kz</td><td>414₸/день</td><td>Алматы, Астана</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
-                    <tr><td>8</td><td>NLS Kazakhstan</td><td>по запросу</td><td>Алматы, Астана</td><td>KVM</td><td>SSD/HDD</td><td>Своя сеть</td><td>✅</td><td>❌</td></tr>
-                    <tr><td>9</td><td>GoodHost.kz</td><td>2 500₸</td><td>Казахстан</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
-                    <tr><td>10</td><td>GoHost.kz</td><td>900₸</td><td>Казахстан</td><td>KVM</td><td>SSD</td><td>Безлимит</td><td>✅</td><td>✅</td></tr>
-                </tbody>
-            </table>
         </div>
     </div>
 </section>
@@ -1090,88 +990,220 @@
 <div style="padding:0 2rem;max-width:1100px;margin:0 auto">
     <div class="mid-cta-banner">
         <div class="mcb-text">
-            <h3>🚀 AdminVPS — выбор редакции VPS в Казахстане</h3>
-            <p>от 499 ₽/мес · NVMe 3.6–5.0 GHz · бесплатные бэкапы · промокод <strong style="color:var(--green)">VPS30</strong> — скидка 30%</p>
+            <h3>🚀 AdminVPS - выбор редакции, май 2026</h3>
+            <p>от 699 ₽/мес · NVMe, 3,6-5,0 ГГц · бесплатные бэкапы · промокод <strong style="color:var(--green)">VPS30</strong> -30 %</p>
         </div>
-        <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="mcb-btn" target="_blank" rel="nofollow">Получить скидку 30% →</a>
+        <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="mcb-btn" target="_blank" rel="nofollow" aria-label="AdminVPS - получить скидку">Получить скидку 30% →</a>
     </div>
 </div>
+
+<!-- VPN -->
+<section class="section" id="vpn">
+    <div class="article">
+        <h2>VPS в Казахстане для VPN: что с этим в мае 2026</h2>
+
+        <p>Две группы людей читают этот раздел. Казахстанцы, которым нужен защищённый канал внутри страны - шифрование в публичных Wi-Fi, корпоративные данные. И россияне, которым после весенних блокировок 2026 нужна площадка рядом, но вне юрисдикции РКН.</p>
+
+        <p>Что произошло в России. К маю 2026 РКН заблокировал более 469 VPN-сервисов. С 15 апреля крупные платформы - маркетплейсы, банки, госуслуги - начали ограничивать функциональность для пользователей с включённым VPN. Apple удалила из российского App Store клиенты Streisand и часть других. Роскомнадзору поставили задачу заблокировать 92 % VPN к 2030 году - это есть в опубликованном ими документе. Контроль над блокировками передан Второй службе ФСБ. С 1 мая обсуждается плата за международный трафик свыше определённого лимита.</p>
+
+        <p>В Казахстане спокойно. VPN не запрещён. DPI работает мягче российских ТСПУ. WireGuard и OpenVPN подключаются без обфускации. VLESS Reality - тем более. Аналогов ТСПУ в стране не строят.</p>
+
+        <p>Для россиян казахстанский VPS - рабочий вариант. Пинг до Москвы 50-80 мс - терпимо для Telegram и YouTube. Ограничений РКН на казахстанских площадках нет. Timeweb Cloud, RUVDS и AdminVPS имеют ДЦ в Алматы и принимают рубли.</p>
+
+        <p>По железу. Минимального тарифа (1 vCPU, 512 МБ RAM) хватает для WireGuard на 5-10 устройств. Для VLESS Reality с 3X-UI или Amnezia VPN берите от 1 ГБ оперативки. Все провайдеры из рейтинга дают KVM с TUN/TAP и root.</p>
+
+        <div class="article-highlight3">
+            <strong>Коротко по апрелю-маю 2026:</strong> 469+ заблокированных VPN, задача 92 % к 2030, App Store чистят, контроль у ФСБ, российские сервисы режут VPN-трафик. Казахстанский VPS с рублёвой оплатой - рабочий выход. AdminVPS (VPS30 -30 %), Timeweb Cloud и RUVDS - все три принимают рубли и стоят в Алматы.
+        </div>
+
+        <div style="text-align:center;margin-top:2rem">
+            <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="hero-cta" style="background:linear-gradient(135deg,var(--green),#00b894);color:#000" target="_blank" rel="nofollow" aria-label="AdminVPS для VPN">🔒 AdminVPS для VPN -30%</a>
+        </div>
+    </div>
+</section>
 
 <!-- GUIDE -->
 <section class="section" id="guide" style="background:var(--bg2)">
     <div class="article">
         <h2 class="section-title">Как выбрать VPS хостинг в Казахстане</h2>
-        <p class="section-sub">На что обращать внимание перед покупкой виртуального сервера</p>
+        <p class="section-sub">На что смотреть перед покупкой - разбираем по шагам</p>
 
-        <h2 id="locations">Расположение дата-центра</h2>
-        <p>Для казахстанской аудитории критично расположение сервера. Дата-центры в Алматы обеспечивают пинг 5-15 мс по всей стране, в Астане — 10-20 мс. Московские площадки дают 50-80 мс — ощутимо хуже для интерактивных сервисов.</p>
+        <details class="expandable">
+            <summary>📍 Расположение дата-центра</summary>
+            <div class="det-body">
+                <p>Для казахстанской аудитории расположение - первое, на что смотрим. Сервер в Алматы даёт пинг 5-15 мс по всей стране, в Астане - 10-20 мс. Московские площадки - 50-80 мс. Для интерактивных сервисов разница ощутимая.</p>
+                <p>Локации провайдеров из рейтинга: Алматы - AdminVPS, Timeweb Cloud, RUVDS, PS.kz, Hoster.kz, Serverspace. Астана - Hoster.kz, VPS24.kz, NLS Kazakhstan, AKASHI. Последний в марте 2026 получил Tier IV от Uptime Institute - первый такой сертификат в Центральной Азии.</p>
+            </div>
+        </details>
 
-        <p>Основные локации VPS в Казахстане: Алматы (AdminVPS, Timeweb Cloud, RUVDS, PS.kz, Hoster.kz, Serverspace) и Астана (Hoster.kz, VPS24.kz, NLS Kazakhstan). В марте 2026 дата-центр AKASHI в Астане получил сертификат Tier IV — первый на всём пространстве СНГ. Выбирайте ближайший к целевой аудитории.</p>
+        <details class="expandable">
+            <summary>🔧 Тип виртуализации</summary>
+            <div class="det-body">
+                <p>Все 10 провайдеров из рейтинга используют KVM. И правильно делают. Полная изоляция ресурсов, своё ядро Linux, поддержка Docker и nested virtualization. OpenVZ - технология из прошлой эпохи, обходите стороной: общее ядро, ограничения, проблемы с TUN/TAP для VPN.</p>
+            </div>
+        </details>
 
-        <h2>Тип виртуализации</h2>
-        <p>Все провайдеры из рейтинга используют KVM — это единственный правильный выбор. Полная изоляция ресурсов, собственное ядро Linux, поддержка Docker и nested virtualization. OpenVZ — устаревшая технология с ограничениями, избегайте её.</p>
+        <details class="expandable">
+            <summary>💻 Характеристики сервера</summary>
+            <div class="det-body">
+                <p>Для типового сайта на WordPress - 1 vCPU, 1 ГБ RAM, 20 ГБ SSD. Этого достаточно. Битрикс или нагруженные проекты - минимум 2 vCPU и 4 ГБ. NVMe в 3-5 раз быстрее обычных SSD - заметно влияет на TTFB. AdminVPS теперь предлагает линейку на Intel Core i9 до 5,0 ГГц - для задач, где важна однопоточная производительность.</p>
+            </div>
+        </details>
 
-        <h2>Характеристики сервера</h2>
-        <p>Для типичного сайта на WordPress достаточно 1 vCPU, 1 ГБ RAM и 20 ГБ SSD. Для 1С-Битрикс или высоконагруженных проектов берите минимум 2 vCPU и 4 ГБ RAM. NVMe-диски в 3-5 раз быстрее обычных SSD — влияет на скорость загрузки страниц. AdminVPS теперь предлагает линейку на Intel Core i9 до 5.0 ГГц — для задач, требующих максимальной однопоточной производительности.</p>
+        <details class="expandable">
+            <summary>💳 Способы оплаты</summary>
+            <div class="det-body">
+                <p>Локальные провайдеры (PS.kz, Hoster.kz, VPS24.kz, GoodHost.kz, GoHost.kz) - тенге через Kaspi и карты казахстанских банков. Российские (AdminVPS, Timeweb Cloud, RUVDS) - рубли, карты МИР, иногда СБП. RUVDS дополнительно принимает криптовалюту.</p>
+                <p>Если нужен Kaspi - выбирайте PS.kz или Hoster.kz. Если важна производительность и есть рублёвая карта - AdminVPS с промокодом VPS30 даёт -30 % на NVMe-серверы.</p>
+            </div>
+        </details>
 
-        <h2 id="payment">Способы оплаты</h2>
-        <p>Локальные провайдеры (PS.kz, Hoster.kz, VPS24.kz, GoodHost.kz, GoHost.kz) принимают оплату в тенге через Kaspi и карты казахстанских банков. Российские хостинги (AdminVPS, Timeweb Cloud, RUVDS) работают в рублях — удобно, если есть карта российского банка или счёт в рублях.</p>
+        <details class="expandable">
+            <summary>📜 Хранение данных и закон о персональных данных</summary>
+            <div class="det-body">
+                <p>Закон «О персональных данных» №94-V (2013) требует хранить данные граждан Казахстана на территории страны. Штрафы за нарушение - до 500 МРП, это около 1,7 млн тенге. ДЦ в Алматы или Астане - автоматическое соответствие.</p>
+                <p>С 1 января 2026 заработала ст. 89 Налогового кодекса РК: иностранные интернет-платформы без НДС-регистрации могут блокировать. КГД уже разослал предупреждения. Локальный IP - дополнительный аргумент в пользу казахстанской площадки.</p>
+            </div>
+        </details>
 
-        <div class="article-highlight2">
-            <strong>Совет:</strong> Если нужна оплата в тенге с Kaspi — выбирайте PS.kz или Hoster.kz. Если важна производительность и готовы платить в рублях — AdminVPS с промокодом VPS30 даёт скидку 30% на NVMe-серверы.
+        <div style="text-align:center;margin-top:2rem">
+            <a href="#rating" class="hero-cta">📊 Вернуться к рейтингу</a>
         </div>
     </div>
 </section>
 
-<!-- VPN -->
+<!-- INFRASTRUCTURE EXPANDABLE -->
 <section class="section">
     <div class="article">
-        <h2>VPS в Казахстане для VPN: ситуация на апрель 2026</h2>
+        <h2>Инфраструктура Казахстана: что происходит в 2026</h2>
 
-        <p>Две аудитории. Первая — казахстанцы, которым нужен защищённый канал внутри страны: шифровать трафик в публичных Wi-Fi, защищать корпоративные данные. Вторая — россияне, которым после апрельских событий нужен VPS рядом, но вне юрисдикции РКН.</p>
+        <details class="expandable" open>
+            <summary>🏗️ AKASHI получил Tier IV - первый в СНГ</summary>
+            <div class="det-body">
+                <p>В конце марта 2026 дата-центр AKASHI в Астане получил сертификат Tier IV от Uptime Institute. Допустимый простой - не более 26 минут в год. Проект Freedom Holding Corp., рассчитан на финансовый сектор и AI-нагрузки. До запуска ёмкость уже забронирована на 61 %.</p>
+            </div>
+        </details>
 
-        <p>Что произошло в России за апрель. 1 апреля — масштабный сбой Telegram из-за ограничений РКН, полной блокировки формально не случилось, но сервис нестабилен. С 15 апреля крупные российские платформы (маркетплейсы, банки, госуслуги) начали ограничивать функциональность для пользователей с включённым VPN. Apple удалила из российского App Store VPN-клиенты Streisand и другие. К концу апреля РКН заблокировал уже 469 VPN-сервисов. 16 апреля The Bell, «Вёрстка» и другие СМИ сообщили, что контроль над блокировками интернета в России передан Второй службе ФСБ — подразделению, отвечающему за «защиту конституционного строя».</p>
+        <details class="expandable">
+            <summary>⚡ «Долина дата-центров» в Экибастузе</summary>
+            <div class="det-body">
+                <p>Инвестиции - $30 млрд, мощность - до 1 ГВт. Параллельно Beeline Kazakhstan строит Tier III Hyper Cloud в Алматы - запуск к концу 2026. Мировые IT-компании на фоне геополитических рисков на Ближнем Востоке рассматривают Казахстан как площадку для размещения серверов. Через год-два ёмкость казахстанских площадок вырастет кратно.</p>
+            </div>
+        </details>
 
-        <p>Для Казахстана пока спокойно. VPN не запрещён. DPI в Казахстане работает значительно мягче российских ТСПУ. WireGuard и OpenVPN подключаются без обфускации. VLESS Reality тем более. Никаких аналогов ТСПУ в Казахстане не внедряют.</p>
-
-        <p>Для россиян казахстанский VPS — проверенная опция. Пинг до Москвы 50-80 мс — терпимо для Telegram и YouTube. Главное — никаких ограничений РКН на казахстанских площадках. Timeweb Cloud и RUVDS имеют дата-центры в Алматы с оплатой в рублях. AdminVPS тоже принимает рубли за казахстанские серверы.</p>
-
-        <p>Минимального тарифа (1 vCPU, 512 МБ RAM) хватает для WireGuard на 5-10 устройств. Для VLESS Reality с панелью 3X-UI или Amnezia VPN — берите от 1 ГБ оперативки. Все провайдеры из рейтинга дают KVM с TUN/TAP и полный root.</p>
-
-        <div class="article-highlight3">
-            <strong>Обновление 22 апреля 2026:</strong> контроль над российским интернетом у Второй службы ФСБ, с 15 апреля платформы ограничивают VPN-трафик, Apple удаляет VPN-клиенты из App Store. Обсуждается плата за международный трафик свыше 15 ГБ. Казахстанский VPS с рублёвой оплатой — один из немногих рабочих вариантов. AdminVPS (промокод VPS30 -30%), Timeweb Cloud и RUVDS принимают рубли и имеют серверы в Алматы.
-        </div>
+        <details class="expandable">
+            <summary>🇰🇿 Налоговая блокировка иностранных платформ</summary>
+            <div class="det-body">
+                <p>С 1 января 2026 действует ст. 89 НК РК - иностранные интернет-платформы без казахстанской регистрации НДС могут быть заблокированы. КГД уже отправил предупреждения. Для бизнеса с казахстанской аудиторией это аргумент в пользу локального VPS с казахстанским IP - чтобы сервис не выглядел «иностранным» для регулятора.</p>
+            </div>
+        </details>
     </div>
 </section>
 
 <!-- PROS/CONS -->
 <section class="section" style="background:var(--bg2)">
     <div class="article">
-        <h2>Локальный провайдер vs Российский хостинг</h2>
-        <p class="section-sub">Что выбрать для VPS в Казахстане — разбираем плюсы и минусы</p>
+        <h2>Локальный провайдер vs российский хостинг</h2>
+        <p class="section-sub">Что выбрать для VPS в Казахстане</p>
 
         <div class="pros-cons">
             <div class="pros">
-                <h4>✅ Локальные провайдеры (PS.kz, Hoster.kz)</h4>
+                <h4>✅ Локальные (PS.kz, Hoster.kz)</h4>
                 <p>→ Оплата в тенге через Kaspi</p>
-                <p>→ Техподдержка на казахском языке</p>
+                <p>→ Поддержка на казахском</p>
                 <p>→ Закрывающие документы для KZ юрлиц</p>
                 <p>→ Соответствие местному законодательству</p>
                 <p>→ Несколько ДЦ (Алматы + Астана)</p>
             </div>
             <div class="cons">
-                <h4>✅ Российские хостинги (AdminVPS, Timeweb, RUVDS)</h4>
-                <p>→ Более низкие цены (от 139 ₽)</p>
-                <p>→ Современное железо (NVMe, до 5.0 ГГц)</p>
+                <h4>✅ Российские (AdminVPS, Timeweb, RUVDS)</h4>
+                <p>→ Цены ниже (от 139 ₽)</p>
+                <p>→ Современное железо (NVMe, до 5,0 ГГц)</p>
                 <p>→ Развитые панели и API</p>
                 <p>→ Автоматические бэкапы</p>
                 <p>→ Бесплатные тестовые периоды и промокоды</p>
             </div>
         </div>
 
-        <p>Для бизнеса, которому критична оплата в тенге и закрывающие документы — выбирайте PS.kz или Serverspace. Для личных проектов и стартапов, где важна цена и производительность — AdminVPS (промокод VPS30) или Timeweb Cloud.</p>
-        <p><strong>Обновление 22 апреля 2026:</strong> после передачи контроля над российским интернетом Второй службе ФСБ и массовых блокировок VPN казахстанские VPS стали особенно востребованы у российской аудитории. Пинг 50-80 мс до Москвы терпим для мессенджеров и стриминга. Российские провайдеры с дата-центрами в Алматы (Timeweb Cloud, RUVDS, AdminVPS) принимают рубли, а VPN-протоколы на казахстанских площадках работают свободно — без ТСПУ и ограничений РКН. Мировые IT-компании также рассматривают Казахстан для размещения инфраструктуры на фоне геополитических рисков.</p>
+        <p>Бизнесу с оплатой в тенге и закрывающими документами - PS.kz или Serverspace. Личные проекты, стартапы, упор на цену и железо - AdminVPS (VPS30) или Timeweb Cloud.</p>
 
+        <p>Российская аудитория. После весенних событий 2026 спрос на казахстанские VPS со стороны россиян резко вырос. Пинг 50-80 мс до Москвы терпим для мессенджеров и стриминга. Российские провайдеры с ДЦ в Алматы (Timeweb, RUVDS, AdminVPS) принимают рубли, а VPN-протоколы на казахстанских площадках работают без ТСПУ и фильтров.</p>
+
+        <div style="text-align:center;margin-top:1.5rem">
+            <a href="https://timeweb.cloud/?i=138553" class="hero-cta" target="_blank" rel="nofollow" aria-label="Timeweb Cloud">🚀 Timeweb Cloud - ДЦ Алматы</a>
+        </div>
+    </div>
+</section>
+
+<!-- INTRO (moved down) -->
+<section class="section">
+    <div class="article">
+        <h2>Зачем арендовать VPS сервер в Казахстане</h2>
+        <p>Виртуальный сервер с ДЦ в Казахстане решает три задачи. Первая - пинг. 5-20 мс внутри страны против 50-80 мс до Москвы. Для интернет-магазинов, корпоративных порталов и онлайн-сервисов это конверсия. Каждая лишняя миллисекунда задержки стоит денег.</p>
+
+        <p>Вторая - закон. №94-V «О персональных данных» от 2013 требует хранить данные граждан Казахстана на территории страны. Штраф - до 500 МРП, около 1,7 млн тенге. Сервер в Алматы - соответствие из коробки.</p>
+
+        <p>Третья - удобство оплаты. Локальные провайдеры принимают тенге через Kaspi, банковские карты, безнал для юрлиц. Российские хостинги работают в рублях - удобно компаниям с присутствием в обеих странах.</p>
+
+        <div class="article-highlight">
+            <strong>Если коротко:</strong> низкий пинг для местной аудитории, соответствие закону о персональных данных, оплата в национальной валюте. Три причины, чтобы не размещаться в Москве.
+        </div>
+    </div>
+</section>
+
+<!-- NEWS FEED -->
+<section class="section" id="news" style="background:var(--bg2)">
+    <div class="container">
+        <h2 class="section-title">Лента событий: рынок VPS и интернет</h2>
+        <p class="section-sub">Что произошло за весну 2026 - то, что влияет на выбор провайдера</p>
+
+        <div class="news-feed">
+
+            <article class="news-item">
+                <time datetime="2026-05-04">4 мая 2026</time>
+                <h4>РКН поставлена задача заблокировать 92 % VPN к 2030 году</h4>
+                <p>The Moscow Times и «Вёрстка» опубликовали ведомственный документ Роскомнадзора. Целевой показатель - 92 % фильтрации VPN к концу 2030 года. Это означает дальнейшее усиление ТСПУ и поиск новых способов обхода со стороны пользователей.</p>
+            </article>
+
+            <article class="news-item">
+                <time datetime="2026-04-30">30 апреля 2026</time>
+                <h4>Apple удаляет VPN-клиенты из российского App Store</h4>
+                <p>Meduza разобрала «новый крестовый поход Минцифры против VPN». Из App Store пропали Streisand и часть других популярных клиентов. Россиянам ограничили оплату сервисов Apple и покупку VPN с мобильного счёта. Казахстанский Apple ID работает без таких ограничений.</p>
+            </article>
+
+            <article class="news-item news-hidden">
+                <time datetime="2026-04-22">22 апреля 2026</time>
+                <h4>Российские платформы режут функциональность при включённом VPN</h4>
+                <p>С 15 апреля крупные маркетплейсы, банки и госуслуги начали ограничивать пользователей с активным VPN. Для россиян, ведущих бизнес на Wildberries и Ozon, это толчок к переезду на казахстанский VPS с локальным IP.</p>
+            </article>
+
+            <article class="news-item news-hidden">
+                <time datetime="2026-04-16">16 апреля 2026</time>
+                <h4>Контроль над блокировками передан Второй службе ФСБ</h4>
+                <p>The Bell и «Вёрстка» сообщили: ответственность за фильтрацию интернета передана подразделению ФСБ, отвечающему за «защиту конституционного строя». Это сигнал о том, что давление на VPN и зарубежные сервисы продолжит расти.</p>
+            </article>
+
+            <article class="news-item news-hidden">
+                <time datetime="2026-04-01">1 апреля 2026</time>
+                <h4>ФСБ усилит контроль трафика IT-компаний</h4>
+                <p>Doxa: с начала 2026 года РКН ограничил работу более 400 VPN, обсуждается плата за использование VPN. Тенденция читается однозначно - сервисы с серверами в России становятся всё менее надёжной площадкой для VPN.</p>
+            </article>
+
+            <article class="news-item news-hidden">
+                <time datetime="2026-03-31">31 марта 2026</time>
+                <h4>AKASHI в Астане - первый Tier IV в Центральной Азии</h4>
+                <p>Дата-центр AKASHI получил сертификат Tier IV от Uptime Institute. Допустимый простой - 26 минут в год. До запуска ёмкость уже забронирована на 61 %, основные арендаторы - финансовый сектор и AI-проекты. Казахстан вошёл в топ-20 стран по уровню инфраструктуры.</p>
+            </article>
+
+            <article class="news-item news-hidden">
+                <time datetime="2026-03-15">15 марта 2026</time>
+                <h4>PS.kz снизил цены на хостинг и VPS</h4>
+                <p>PS Cloud Services сообщил о снижении цен: виртуальный хостинг от 120 ₸, VPS - от 3 000 ₸. Это реакция на конкуренцию с российскими провайдерами, которые активно открывают локации в Алматы.</p>
+            </article>
+
+        </div>
+
+        <button class="news-toggle-btn" id="newsToggleBtn" onclick="toggleNews()" aria-label="Показать больше новостей">Показать ещё 5 новостей ↓</button>
     </div>
 </section>
 
@@ -1184,51 +1216,51 @@
         <div class="faq-list">
             <div class="faq-item">
                 <div class="faq-q">Какой самый дешевый VPS в Казахстане?</div>
-                <div class="faq-a">Самый доступный VPS с казахстанской локацией предлагает RUVDS — от 139 ₽/мес (около 765 ₸) за сервер в Алматы. AdminVPS предлагает Lite-тариф от 499 ₽/мес с NVMe-дисками. Среди локальных провайдеров самая низкая цена у GoHost.kz — от 900 ₸/мес. А с промокодом VPS30 на AdminVPS можно получить NVMe-сервер со скидкой 30%.</div>
+                <div class="faq-a">С локацией в Алматы и оплатой в рублях - RUVDS, 139 ₽/мес (примерно 765 ₸). AdminVPS на тарифе для Казахстана - от 699 ₽/мес с NVMe, а промокод VPS30 даёт -30 %. Среди локальных в тенге - GoHost.kz от 900 ₸/мес и PS.kz от 3 000 ₸/мес.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Можно ли оплатить VPS в тенге через Kaspi?</div>
-                <div class="faq-a">Да. Локальные провайдеры PS.kz, Hoster.kz, VPS24.kz, GoodHost.kz и GoHost.kz принимают оплату в тенге через Kaspi и карты казахстанских банков. Российские хостинги (AdminVPS, Timeweb Cloud, RUVDS) принимают только рубли.</div>
+                <div class="faq-a">Да. PS.kz, Hoster.kz, VPS24.kz, GoodHost.kz, GoHost.kz - принимают тенге через Kaspi и карты казахстанских банков. AdminVPS, Timeweb Cloud, RUVDS работают только в рублях.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Где находятся дата-центры VPS в Казахстане?</div>
-                <div class="faq-a">Основные дата-центры расположены в Алматы (AdminVPS, Timeweb Cloud, RUVDS, PS.kz, Hoster.kz, Serverspace) и Астане (Hoster.kz, VPS24.kz, NLS Kazakhstan, AKASHI — первый Tier IV в Центральной Азии). Пинг внутри страны составляет 5-20 мс. В 2026 строится «Долина дата-центров» в Экибастузе (инвестиции $30 млрд) и Beeline Hyper Cloud ДЦ в Алматы.</div>
+                <div class="faq-a">Алматы - AdminVPS, Timeweb Cloud, RUVDS, PS.kz, Hoster.kz, Serverspace. Астана - Hoster.kz, VPS24.kz, NLS Kazakhstan, AKASHI (первый Tier IV в Центральной Азии, март 2026). Пинг внутри страны - 5-20 мс. В планах - «Долина дата-центров» в Экибастузе на $30 млрд и Hyper Cloud от Beeline в Алматы к концу 2026.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Какой VPS выбрать для сайта на WordPress?</div>
-                <div class="faq-a">Для типичного WordPress-сайта достаточно тарифа с 1 vCPU, 1 ГБ RAM и 20 ГБ SSD. Рекомендуем AdminVPS (NVMe, бэкапы, промокод VPS30 -30%) или Timeweb Cloud (NVMe, автобэкапы, дата-центр Алматы). Для высоконагруженных проектов берите минимум 2 vCPU и 4 ГБ RAM.</div>
+                <div class="faq-a">Для типичного WordPress - 1 vCPU, 1 ГБ RAM, 20 ГБ SSD. AdminVPS (NVMe, бэкапы, VPS30 -30 %) или Timeweb Cloud (NVMe, автобэкапы, ДЦ Алматы). Высоконагруженные - от 2 vCPU и 4 ГБ.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Чем отличается VPS от VDS?</div>
-                <div class="faq-a">На практике ничем — это разные названия одной услуги. VPS (Virtual Private Server) и VDS (Virtual Dedicated Server) означают виртуальную машину с выделенными ресурсами. Важнее тип виртуализации: KVM дает полную изоляцию и root-доступ, OpenVZ — устаревшая технология с ограничениями.</div>
+                <div class="faq-a">Ничем по сути - два названия одной услуги. VPS (Virtual Private Server) и VDS (Virtual Dedicated Server) означают виртуальную машину с выделенными ресурсами. Что реально важно - тип виртуализации. KVM даёт полную изоляцию и root. OpenVZ - устаревший, с ограничениями. Все провайдеры из рейтинга - на KVM.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Есть ли бесплатный VPS в Казахстане?</div>
-                <div class="faq-a">Полностью бесплатных VPS в Казахстане нет. RUVDS предлагает 3-дневный тестовый период на любом тарифе. Timeweb Cloud имеет грантовую программу до 1 000 000 ₽ для стартапов. VPS24.kz предлагает посуточную оплату от 414 ₸/день — можно протестировать за минимальную сумму.</div>
+                <div class="faq-a">Полностью бесплатных нет. RUVDS - 3 дня теста. Timeweb Cloud - грантовая программа для стартапов. VPS24.kz - посуточная оплата от 414 ₸, можно тестировать за минимальную сумму.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Нужно ли хранить данные в Казахстане по закону?</div>
-                <div class="faq-a">Да. Закон «О персональных данных» (№94-V от 2013 года) требует хранить персональные данные граждан Казахстана на территории страны. Штрафы за нарушение — до 500 МРП (около 1.7 млн тенге). Арендуя VPS в Алматы или Астане, вы автоматически соответствуете требованиям. С 1 января 2026 также действует ст. 89 Налогового кодекса РК, позволяющая блокировать иностранные платформы без НДС-регистрации.</div>
+                <div class="faq-a">Да. Закон №94-V «О персональных данных» (2013) требует хранения данных граждан Казахстана на территории страны. Штрафы - до 500 МРП (около 1,7 млн тенге). Сервер в Алматы или Астане - автоматическое соответствие. С 1 января 2026 также работает ст. 89 НК РК - блокировка иностранных платформ без НДС-регистрации.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Какой пинг у VPS в Алматы?</div>
-                <div class="faq-a">Пинг до сервера в Алматы составляет 5-15 мс внутри города, 10-25 мс по Казахстану, 50-80 мс до Москвы, 80-120 мс до Западной Европы. Для локальной аудитории это оптимальный выбор.</div>
+                <div class="faq-a">5-15 мс внутри Алматы, 10-25 мс по Казахстану, 50-80 мс до Москвы, 80-120 мс до Западной Европы. Для местной аудитории - лучший вариант.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Можно ли оплатить VPS криптовалютой?</div>
-                <div class="faq-a">Да. RUVDS принимает криптовалюту (Bitcoin, Ethereum и другие). Среди локальных казахстанских провайдеров криптооплата пока не распространена — используйте Kaspi или банковские карты.</div>
+                <div class="faq-a">RUVDS принимает Bitcoin, Ethereum и другие. Локальные казахстанские провайдеры криптой не торгуют - используйте Kaspi или карты.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Как выбрать между Алматы и Астаной?</div>
-                <div class="faq-a">Разница в пинге между Алматы и Астаной составляет 10-20 мс. Выбирайте ближайший к основной аудитории. Если целевая аудитория распределена по всей стране — Алматы предпочтительнее как более крупный хаб с лучшей связностью. В Астане в 2026 запущен AKASHI — первый Tier IV ЦОД в СНГ, что делает столичные площадки более привлекательными для enterprise-клиентов.</div>
+                <div class="faq-a">Разница в пинге - 10-20 мс. Берите ближайший к аудитории. Если она по всей стране - Алматы как более крупный хаб с лучшей связностью. В Астане в марте 2026 запущен AKASHI - первый Tier IV ЦОД в СНГ, что делает столицу привлекательнее для enterprise-клиентов.</div>
             </div>
-             <div class="faq-item">
+            <div class="faq-item">
                 <div class="faq-q">Можно ли использовать казахстанский VPS для обхода российских блокировок?</div>
-                <div class="faq-a">Да. Казахстанские серверы находятся вне юрисдикции РКН и ТСПУ. WireGuard, OpenVPN и VLESS Reality работают без обфускации. Пинг до Москвы 50-80 мс — для Telegram и YouTube достаточно. AdminVPS, Timeweb Cloud и RUVDS имеют дата-центры в Алматы с оплатой в рублях. С апреля 2026 контроль над российским интернетом передан Второй службе ФСБ — блокировки ужесточаются, а спрос на казахстанские VPS значительно вырос.</div>
+                <div class="faq-a">Да. Казахстанские серверы - вне юрисдикции РКН и ТСПУ. WireGuard, OpenVPN, VLESS Reality работают без обфускации. Пинг до Москвы 50-80 мс - для Telegram и YouTube хватает. AdminVPS, Timeweb Cloud и RUVDS имеют ДЦ в Алматы и принимают рубли. К маю 2026 РКН заблокировал более 469 VPN-сервисов - спрос на казахстанские VPS со стороны российской аудитории заметно вырос.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Блокируют ли VPN в Казахстане?</div>
-                <div class="faq-a">Использование VPN в Казахстане законно. DPI-фильтрация работает значительно мягче, чем в России. WireGuard и OpenVPN подключаются без проблем. Никаких аналогов российских ТСПУ в Казахстане нет. Страна движется в сторону развития IT-инфраструктуры: проект «Долина дата-центров» на $30 млрд, Tier IV ЦОД AKASHI, привлечение мировых IT-компаний.</div>
+                <div class="faq-a">VPN в Казахстане законен. DPI работает мягче российских ТСПУ. WireGuard и OpenVPN подключаются без проблем. Аналогов ТСПУ в стране нет. Курс на развитие IT-инфраструктуры - «Долина дата-центров» на $30 млрд, AKASHI Tier IV, привлечение мировых IT-компаний.</div>
             </div>
         </div>
     </div>
@@ -1238,24 +1270,23 @@
 <section class="cta-block">
     <div style="max-width:600px;margin:0 auto">
         <div class="hero-badge" style="margin-bottom:1rem">🇰🇿 Лучшие VPS в Казахстане 2026</div>
-        <h2>Арендуйте VPS в Алматы уже сегодня</h2>
-        <p>Выберите провайдера, оплатите в тенге или рублях, получите сервер за 5 минут. Минимальный пинг для казахстанской аудитории.</p>
+        <h2>Арендуйте VPS в Алматы сегодня</h2>
+        <p>Выбирайте провайдера, платите в тенге или рублях, получайте сервер за 5 минут. Минимальный пинг для казахстанской аудитории.</p>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem">
-            <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="hero-cta" style="background:linear-gradient(135deg,var(--green),#00b894);color:#000" target="_blank" rel="nofollow">⭐ AdminVPS — скидка 30%</a>
-            <a href="https://timeweb.cloud/?i=138553" class="hero-cta" target="_blank" rel="nofollow">🚀 Timeweb Cloud — от 1 188₽</a>
+            <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="hero-cta" style="background:linear-gradient(135deg,var(--green),#00b894);color:#000" target="_blank" rel="nofollow" aria-label="AdminVPS со скидкой 30">⭐ AdminVPS -30%</a>
+            <a href="https://timeweb.cloud/?i=138553" class="hero-cta" target="_blank" rel="nofollow" aria-label="Timeweb Cloud от 1188 рублей">🚀 Timeweb Cloud - от 1 188 ₽</a>
         </div>
-        <p style="font-size:.8rem;color:var(--text2)">Промокод <strong style="color:var(--green)">VPS30</strong> даёт -30% на AdminVPS</p>
+        <p style="font-size:.8rem;color:var(--text2)">Промокод <strong style="color:var(--green)">VPS30</strong> даёт -30 % на AdminVPS</p>
     </div>
 </section>
 
 <footer class="footer">
-    <p>© 2026 VPS Казахстан — Независимый рейтинг хостингов для аренды виртуальных серверов в KZ</p>
-    <p style="margin-top:.5rem">Рейтинг обновляется ежемесячно. Последнее обновление: 22 апреля 2026.</p>
+    <p>© 2026 VPS Казахстан - независимый рейтинг хостингов для аренды виртуальных серверов в KZ</p>
+    <p style="margin-top:.5rem">Рейтинг обновляется ежемесячно. Последнее обновление: <time datetime="2026-05-16">16 мая 2026</time>.</p>
     <p style="margin-top:.5rem;font-size:.75rem;color:#555">Сайт содержит партнёрские ссылки. Мы можем получать комиссию за покупки без дополнительных затрат для вас.</p>
 </footer>
 
 <script>
-// Recommender widget
 function showRec(type, btn) {
     document.querySelectorAll('.rec-result').forEach(el => el.classList.remove('show'));
     document.querySelectorAll('.rec-btn').forEach(el => el.classList.remove('active'));
@@ -1264,18 +1295,16 @@ function showRec(type, btn) {
     if (btn) btn.classList.add('active');
 }
 
-// Sticky bar on scroll
 window.addEventListener('scroll', function() {
     const bar = document.getElementById('stickyBar');
     if (!bar) return;
-    if (window.scrollY > 600) {
+    if (window.scrollY > 400) {
         bar.classList.add('visible');
     } else {
         bar.classList.remove('visible');
     }
 }, {passive: true});
 
-// Animated live viewer counts
 function randomizeViewers() {
     const ids = ['views-adminvps','views-timeweb','views-ruvds','views-ps'];
     const base = [287, 156, 234, 98];
@@ -1290,12 +1319,11 @@ function randomizeViewers() {
     });
     const liveEl = document.getElementById('live-count');
     if (liveEl) {
-        liveEl.textContent = Math.floor(15 + Math.random() * 20);
+        liveEl.textContent = Math.floor(20 + Math.random() * 25);
     }
 }
 setInterval(randomizeViewers, 8000);
 
-// FAQ accordion
 document.querySelectorAll('.faq-q').forEach(q=>{
     q.addEventListener('click',()=>{
         const item=q.parentElement;
@@ -1304,7 +1332,22 @@ document.querySelectorAll('.faq-q').forEach(q=>{
     });
 });
 
-// Smooth scroll
+function toggleNews() {
+    const hidden = document.querySelectorAll('.news-hidden');
+    const btn = document.getElementById('newsToggleBtn');
+    let allShown = true;
+    hidden.forEach(el => {
+        if (!el.classList.contains('show')) allShown = false;
+    });
+    if (allShown) {
+        hidden.forEach(el => el.classList.remove('show'));
+        btn.textContent = 'Показать ещё 5 новостей ↓';
+    } else {
+        hidden.forEach(el => el.classList.add('show'));
+        btn.textContent = 'Свернуть новости ↑';
+    }
+}
+
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
     a.addEventListener('click',e=>{
         e.preventDefault();
@@ -1316,14 +1359,13 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
 });
 </script>
 
-<!-- Sticky CTA Bar — AdminVPS -->
-<div class="sticky-bar" id="stickyBar">
+<div class="sticky-bar" id="stickyBar" role="region" aria-label="Специальное предложение AdminVPS">
     <div class="sticky-bar-text">
-        <span class="sb-full">⭐ <strong>AdminVPS</strong> — от <strong>499 ₽/мес</strong> · промокод <span class="sticky-bar-promo">VPS30</span> скидка 30%</span>
-        <span class="sb-short">⭐ <strong>AdminVPS</strong> от <strong>499 ₽</strong> <span class="sticky-bar-promo">VPS30</span></span>
+        <span class="sb-full">⭐ <strong>AdminVPS</strong> - от <strong>699 ₽/мес</strong> · промокод <span class="sticky-bar-promo">VPS30</span> -30 %</span>
+        <span class="sb-short">⭐ <strong>AdminVPS</strong> от <strong>699 ₽</strong> <span class="sticky-bar-promo">VPS30</span></span>
     </div>
-    <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="sticky-bar-btn" target="_blank" rel="nofollow">Получить скидку →</a>
-    <button class="sticky-bar-close" onclick="document.getElementById('stickyBar').style.display='none'" aria-label="Закрыть">✕</button>
+    <a href="https://adminvps.ru/vps/vps_kazakhstan.php?aff=29893" class="sticky-bar-btn" target="_blank" rel="nofollow" aria-label="Получить скидку на AdminVPS">Получить →</a>
+    <button class="sticky-bar-close" onclick="document.getElementById('stickyBar').style.display='none'" aria-label="Закрыть баннер">✕</button>
 </div>
 </body>
 </html>
